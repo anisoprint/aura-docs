@@ -9,7 +9,7 @@ Process g-code for several models:
 Process g-code with custom layup rules for parts:  
 ````aura.cli --input parts-data.json --output part.gcode --session settings.aus````
 
-Use *Tools->Export session...* in Aura to save session file with current slicing settings.
+Use *File->Export session...* in Aura to save session file with current slicing settings.
 
 ## Parameters
 Parameter   | Description
