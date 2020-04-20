@@ -35,29 +35,32 @@ Load two models and rotate and place them on the buildplate
 
 ```json
 {
-    "Models": [{
-        "Filepath": "spool-axis.stp",
-        "Transformation": {
-            "Rotation": {
-                "AxisVector": { "X":0, "Y":0, "Z":1 },
-                "AngleRadians": 1.57075
-            },
-            "Translation": {
-                "X":150, "Y":100
+    "Models": 
+    [
+        {
+            "Filepath": "spool-axis.stp",
+            "Transformation": {
+                "Rotation": {
+                    "AxisVector": { "X":0, "Y":0, "Z":1 },
+                    "AngleRadians": 1.57075
+                },
+                "Translation": {
+                    "X":150, "Y":100
+                }
+            }
+        },
+        {
+            "Filepath": "spool-axis.stp",
+            "Transformation": {
+                "Rotation": {
+                    "AxisVector": { "X":0, "Y":0, "Z":1 },
+                    "AngleRadians": 1.57075
+                },
+                "Translation": {
+                    "X":300, "Y":100
+                }
             }
         }
-    },
-    {
-        "Filepath": "spool-axis.stp",
-        "Transformation": {
-            "Rotation": {
-                "AxisVector": { "X":0, "Y":0, "Z":1 },
-                "AngleRadians": 1.57075
-            },
-            "Translation": {
-                "X":300, "Y":100
-            }
-        }
-    }]
+    ]
 }
 ```
