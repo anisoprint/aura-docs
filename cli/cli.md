@@ -1,4 +1,5 @@
 # Aura CLI
+Alpha version of Aura CLI is included in Aura 1.24 and later. Aura.CLI.exe is located in the Aura program directory.
 
 ## Usage
 Process g-code for model:  
