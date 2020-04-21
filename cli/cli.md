@@ -64,3 +64,13 @@ Load two models and rotate and place them on the buildplate
     ]
 }
 ```
+
+### Fiber infill types
+
+Value   | Type
+--------------------|--------------------------------------
+0        | SOLID  
+1         | CELLULAR_RHOMBIC  
+2       | CELLULAR_ISOGRID 
+3        | CELLULAR_ANISOGRID
+
