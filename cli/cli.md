@@ -65,6 +65,56 @@ Load two models and rotate and place them on the buildplate
 }
 ```
 
+### Example 2
+Load model, place it on the buildplate and apply custom layup rules.
+```json
+{
+    "Models": 
+    [
+        {
+            "Filepath": "spool-axis.stp",
+            "Transformation": {
+                "Translation": {
+                    "X":100, "Y":100
+                }
+            },
+            "RegionData": 
+            [
+                {
+                    "Priority": 1,
+                    "StartHeightMM": 0,
+                    "EndheightMM": 20.0,
+                    "LayupRule": {
+                        "GenerateFiberPerimeters": 1,
+                        "GenerateFiberInfill": 1,
+                        "Inset0Count": 2,
+                        "OuterPlasticWhenFiberCount": 2,
+                        "InnerPlasticWhenFiberCount": 0,
+                        "InsetFOuterCount": 3,
+                        "InsetFInnerCount": 0,
+                        "FiberInfillType": 2,
+                        "IsogridOrientation": 0,
+                        "IsogridDensity": 30
+                    }
+                },
+                {
+                    "Priority": 2,
+                    "StartHeightMM": 0,
+                    "EndheightMM": 1000.0,
+                    "LayupRule": {
+                        "GenerateFiberPerimeters": 0,
+                        "GenerateFiberInfill": 0,
+                        "Inset0Count": 2,
+                        "InsetXPOnlyCount": 2,
+                        "InfillCPercent": 40
+                    }
+                }
+            ]   
+        }
+    ]
+}
+```
+
 ### Fiber infill types
 
 Value   | Type
