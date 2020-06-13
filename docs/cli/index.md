@@ -1,4 +1,4 @@
-# Aura CLI
+# Aura CLI <Badge text="alpha" type="warning"/>
 Alpha version of Aura CLI is included in Aura 1.24 and later. Aura.CLI.exe is located in the Aura program directory.
 
 ## Usage
@@ -28,7 +28,7 @@ You can specify a list of models with layup regions and transformations using *-
 The JSON Schema for the input file can be found in *cli-inputfile.schema.json*, which is located in the Aura program directory.
 
 
-![Input JSON Schema](media/input-json-schema.png)
+![Input JSON Schema](./media/input-json-schema.png)
 
 ### Example 1
 Load two models and rotate and place them on the buildplate
