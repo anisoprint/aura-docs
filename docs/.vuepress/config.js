@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Aura Docs',
     description: 'Anisoprint Aura Documentation',
-    dest: '.vuepress/dist/docs',
+    dest: './docs/.vuepress/dist/docs',
     base: '/docs/',
     themeConfig: {
         logo: '/assets/img/aura-logo.png',
