@@ -1,4 +1,4 @@
 # Aura Docs 
 
-* [Supports and Overhangs](supports/)
-* [CLI](cli/)
+* [Supports and Overhangs](docs/supports/)
+* [CLI](docs/cli/)
