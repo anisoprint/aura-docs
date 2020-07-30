@@ -1,10 +1,4 @@
-@font-face {
-    font-family: "Formular";
-    src: url("fonts/formular-bold.eot");
-    src: url("fonts/formular-bold.woff") format("woff"),
-    url("fonts/formular-bold.otf") format("opentype"),
-    url("fonts/formular-bold.svg") format("svg");
-    }
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&text=→');
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -40,7 +34,6 @@ h1 {
     font-size: 30px;
     margin-block-end: 0.4em;
     margin-block-start: 0.4em;
-    font-family: 'Formular';
 }
 
 a {
@@ -64,9 +57,11 @@ ul {
     letter-spacing: 5px;
     padding-top: 6px;
     padding-right: 4px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     vertical-align: bottom;
-    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
