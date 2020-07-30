@@ -1,29 +1,44 @@
 module.exports = {
     title: 'Aura Docs',
     description: 'Anisoprint Aura Documentation',
+    base: '/docs/',
     themeConfig: {
         logo: '/assets/img/aura-logo.png',
         smoothScroll: true,
-        displayAllHeaders: true, 
+        displayAllHeaders: false, 
         nav: 
         [
           { text: 'Home', link: '/' },
-          { text: 'CLI', link: '/cli/' },
           { text: 'Support', link: 'https://support.anisoprint.com' }
         ],
         sidebar: 
         [
-            '/',
-            ['#', 'Downloads'],
+            //['/', 'Release Notes'],
             {
               title: 'Documentation',
               collapsable: false,
               children: [ 
-                ['/usage/','Using Aura'],
-                ['/settings/','Settings'],
+                ['/supports/','Supports and Overhangs'],
                 ['/cli/','CLI'],
               ]
             },
         ]
+      },
+      plugins: [
+        [
+          'vuepress-plugin-mathjax',
+          {
+            target: 'svg',
+            macros: {
+              '*': '\\times',
+            },
+          },
+        ],
+      ],
+      markdown: {
+        extendMarkdown: md => {
+          // use markdown-it plugins
+          md.use(require('markdown-it-imsize'))
+        }
       }
   }

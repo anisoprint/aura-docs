@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Formular";
+    src: url("fonts/formular-bold.eot");
+    src: url("fonts/formular-bold.woff") format("woff"),
+    url("fonts/formular-bold.otf") format("opentype"),
+    url("fonts/formular-bold.svg") format("svg");
+    }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+main {
+    width: 800px;
+    height: 500px;
+    max-width: 800px;
+    max-height: 500px;
+    overflow: hidden;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 50px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    background-color: #2b2b2b;
+    background-image: url("media/logo-trasparent.png");
+    background-position-x: 250px;
+    background-position-y: -150px;
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+#content {
+    padding-left: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-block-end: 0.4em;
+    margin-block-start: 0.4em;
+    font-family: 'Formular';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border-bottom-color: #a64b2e;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+ul {
+    margin-block-start: 0.4em;
+    margin-block-end: 2em;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.arrow::before {
+    content: "→";
+    color: #ce371f;
+    letter-spacing: 5px;
+    padding-top: 6px;
+    padding-right: 4px;
+    font-size: 18px;
+    line-height: 24px;
+    vertical-align: bottom;
+    font-family: 'Formular';
+}
+
