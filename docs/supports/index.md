@@ -22,7 +22,7 @@ Interface support can be generated between the support structure and the part. U
 
 ![Support structure with interface](./media/supports1.png)
 
-The thickness of interface supports is specified as the number of macrolayers. If you define "1", it means that at least one full macrolayer of support structure near the part will be filled with interface support. The layers thickness for interface support is the same as for external shell.
+The thickness of interface supports is specified as the number of macrolayers. If you define "1", it means that at least one full macrolayer of support structure near the part will be filled with interface support. The layers thickness for interface support is the same as for external shell. Interface infill is perpendicular to regular support infill.
 ::: tip
 We recommend having at least a couple of top interface macrolayers with dense structure. The bottom interface is not so useful.
 :::
