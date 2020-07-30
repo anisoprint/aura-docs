@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Aura Docs',
     description: 'Anisoprint Aura Documentation',
-    base: '/docs/',
+    base: '/aura-docs/',
     themeConfig: {
         logo: '/assets/img/aura-logo.png',
         smoothScroll: true,
