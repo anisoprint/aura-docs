@@ -29,7 +29,8 @@ body {
 }
 
 .note {
-    font-size: 14px;
+    font-size: 13px;
+    padding-top: 10px;
     padding-right: 40px;
 }
 
