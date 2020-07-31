@@ -1,4 +1,9 @@
 # Supports and Overhangs <Badge text="new in v1.27" type="warning"/>
+
+::: warning
+Support settings in Aura 1.27 are partially incompatible with support settings in previous versions. After update to 1.27, please review support settings in your custom profiles. Particularly, airgaps layers are now external shell layers, not thin support layers.
+:::
+
 ## Supports
 The part is printed from bottom to top layer by layer. That means that if the part has any overhangs, these overhangs will be printed in the air. An example of part with overhangs is on the left picture. Such large overhangs, like on the picture, can't be printed correctly - the material will fall, and the shape of the part will be broken.
 

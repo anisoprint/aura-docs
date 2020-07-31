@@ -28,6 +28,11 @@ body {
     padding-left: 20px;
 }
 
+.note {
+    font-size: 14px;
+    padding-right: 40px;
+}
+
 h1 {
     font-size: 30px;
     margin-block-end: 0.4em;
@@ -44,7 +49,7 @@ a {
 
 ul {
     margin-block-start: 0.4em;
-    margin-block-end: 2em;
+    margin-block-end: 1.2em;
     list-style: none;
     padding-inline-start: 0px;
 }
@@ -62,4 +67,5 @@ ul {
     font-weight: 400;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 
