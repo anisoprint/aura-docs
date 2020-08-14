@@ -67,7 +67,7 @@ You can find **Self-support distance coefficient** by printing a test model like
 
 $$k_{ov}=\frac{h\tan  \alpha }{ \delta }$$
 
-Here $\alpha$ is self-support angle counted from the vertical plane, $h$ is layer heigth, and $\delta$ is extrusion width.
+Here $\alpha$ is self-support angle counted from the vertical plane, $h$ is layer heigth, and $\delta$ is external shell extrusion width.
 
 ## Overhangs
 
