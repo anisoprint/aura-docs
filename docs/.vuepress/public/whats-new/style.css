@@ -24,6 +24,10 @@ body {
     background-repeat: no-repeat;
 }
 
+#main.scroll {
+	overflow-y: scroll !important;
+}
+
 #content {
     padding-left: 20px;
 }
@@ -55,6 +59,14 @@ ul {
     padding-inline-start: 0px;
 }
 
+ul.points {
+    list-style: circle;
+}
+
+ul.points li {
+    margin-top: 0.4em;
+}
+
 .arrow::before {
     content: "→";
     color: #ce371f;
@@ -68,5 +80,9 @@ ul {
     font-weight: 400;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+#raw 
+{
+	padding-right: 40px;
 
 
