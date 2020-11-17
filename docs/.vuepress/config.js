@@ -25,7 +25,7 @@ module.exports = {
               title: 'Licensing',
               collapsable: false,
               children: [ 
-                ['/licensing/activation/','Product Activation'],
+                ['docs/licensing/activation/','Product Activation'],
               ]
             },
         ]
