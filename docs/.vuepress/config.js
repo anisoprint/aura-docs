@@ -21,6 +21,13 @@ module.exports = {
                 ['/docs/cli/','CLI'],
               ]
             },
+            {
+              title: 'Licensing',
+              collapsable: false,
+              children: [ 
+                ['/licensing/activation/','Product Activation'],
+              ]
+            },
         ]
       },
       plugins: [
