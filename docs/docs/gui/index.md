@@ -9,13 +9,13 @@ When you open Aura the main window appears.
 ![Main window](./media/main-window.png)
 
 On this screenshot of the main window, we can observe:
-1.	Main menu
+1.	[Main menu](./#main-menu)
 2.	View cube 
 3.	View axes
 4.	Buildplate
 5.	Origin of coordinate system
-6.	View toolbar (zoom, pan, rotate, etc.)
-7.	Main tabs
+6.	[View toolbar](./#view-toolbar) (zoom, pan, rotate, etc.)
+7.	[Main tabs](./#slicing-tab)
 
 ## Main menu
 
@@ -39,8 +39,8 @@ The main menu provides actions for project and models (File), models actions (Ed
 * **Rotate** – shows form and manipulator to rotate models around X, Y, and Z-axis.
 * **Resize** – shows form to resize models.
 * **Clone** – clones model and place it at the same place.
-* **Set layup** – shows form to define layup structure for the model.
-* **Set mask** – adds the selected model as a mask to another base model.
+* **Set layup** – shows form to define [layup structure scheme](/docs/layuprule/) for the model.
+* **Set mask** – adds the selected model as a [mask](/docs/premium/masks/) to another base model.
 
 ### Tools
 * **Update Composer firmware** – opens the dialog window where the user could maintain Composer firmware.
@@ -89,13 +89,13 @@ Model actions contain actions to transform models and add zones with special rul
 Button                                         | Model action
 -----------------------------------------------|----------------------------
 ![Remove](./media/m-remove.png)                | Remove models 
-![Shift](./media/m-shift.png)                  | Shift models in X,Y,Z-directions
+![Shift](./media/m-shift.png)                  | [Shift](./#movement) models in X,Y,Z-directions
 ![Place on table](./media/m-placebp.png)       | Place models on the table
-![Rotate](./media/m-rotate.png)                | Rotate models along X,Y,Z axes
+![Rotate](./media/m-rotate.png)                | [Rotate](./#rotation) models along X,Y,Z axes
 ![Resize](./media/m-resize.png)                | Resize models
 ![Clone](./media/m-clone.png)                  | Clone models
-![Layer structure](./media/m-layuprule.png)    | Set layup structure scheme
-![Add mask](./media/m-mask.png)                | Add model as mask
+![Layer structure](./media/m-layuprule.png)    | Set [layup structure scheme](/docs/layuprule/)
+![Add mask](./media/m-mask.png)                | Add model as [mask](/docs/premium/masks/)
 
 ### Movement
 
