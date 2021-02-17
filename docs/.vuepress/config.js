@@ -17,8 +17,20 @@ module.exports = {
               title: 'Documentation',
               collapsable: false,
               children: [ 
+                ['/docs/gui/','GUI Overview'],
+                ['/docs/macrolayers/','Macrolayers Technology'],
+                ['/docs/entities/','Part Internal Structure'],
                 ['/docs/supports/','Supports and Overhangs'],
-                ['/docs/cli/','CLI'],
+                ['/docs/layuprule/','Layup Structure Scheme'],
+              ]
+            },
+            {
+              title: 'Premium Features',
+              collapsable: false,
+              children: [ 
+                ['/docs/premium/masks/','Masks'],
+                ['/docs/premium/blockers-enforcers/','Support Blockers and Enforcers'],
+                ['/docs/premium/cli/','CLI'],
               ]
             },
             {
