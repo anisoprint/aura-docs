@@ -37,6 +37,7 @@ module.exports = {
               title: 'Licensing',
               collapsable: false,
               children: [ 
+                ['docs/licensing/editions/','Aura Editions'],
                 ['docs/licensing/activation/','Product Activation'],
               ]
             },
