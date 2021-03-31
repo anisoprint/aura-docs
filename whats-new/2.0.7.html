@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>New in Aura</title>
+  <meta name="description" content="New in Aura">
+  <meta name="author" content="Anisoprint LLC">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id ="main" class="scroll">
+<h1>New in Aura v2.0</h1>
+    <div id="content">
+		<div id="raw">
+		<h3>Changes in Aura Projects and Temporary Settings</h3>
+		<p>When you open a project, the settings contained in it are no longer automatically saved to the settings library, but imported as temporary. Temporary settings can be used for slicing in the same way as settings from the library, but they will be cleared when creating a new project, opening another project, or restarting the program.</p>
+		<p>Temporary settings are always displayed at the beginning of the list of settings on the corresponding panel (printers, materials, profiles). Temporary settings can be saved to the library by clicking on the save button. In this case, the custom settings from the project will be added to the library, and the overrides for the settings built into Aura will be overwritten.</p>
+		<img src="media/2.0/temp.png"/> 
+		<h3>Settings Overrides</h3>
+		<p>Each parameter in the settings for materials, profiles, printers can now be overridden, reset, and saved. When a parameter is changed, it becomes overridden. Slicing uses overridden parameters. Overrides are saved across program restart. </p>
+		<p>All settings can be overridden, including the settings built into the Aura, which are marked with the AP index. The overridden value can be reset to the original (base) value. Also, if the settings are custom (without the AP index), then the overridden parameter values ​​can be saved updating the base ones. </p>
+		<img src="media/2.0/override2.png"/> 
+		<h3>Compatible Materials in Profiles</h3>
+		<p>For profiles, the ability to specify materials compatible with them (plastics and composites) has been added. Also, the profile can be universal - compatible with any materials. In the Slicing panel, the profiles list displays only those profiles that are compatible with the selected materials. All profiles from Aura 1.x are imported as universal. </p> 
+		<img src="media/2.0/compatible.png"/>
+		<h3>Composite Settings</h3>
+		<p>Fiber settings were replaced with composite settings. Composite is a combination of fiber and plastic. Composite settings include all the plastic settings that are used in composite printing, for example, print temperature, cooling fan speed, etc. When importing an Aura 1.x project, a composite is created automatically for a combination of fiber and plastic in a composite extruder. When importing fiber settings from Aura 1.x separately, all settings related to the plastic are set to their default values.</p> 
+		<h3>Slots and Extruders in Printers</h3>
+		<p> Each printer now has a list of extruder slots and a list of extruders that can be installed in the slots. Before slicing, on the Slicing panel, you can select which extruders are installed in the slots. The tool index and type (plastic, composite or universal) are specified for the slot. 
+		</p><p>Composer A4, A3 printers have 2 slots - slot 0 (plastic) and slot 1 (composite). Slot 0 can accommodate plastic extruders with different nozzle diameters. Only one composite extruder is currently available for slot 1. The PROM IS 500 printer has 4 universal slots, in which different extruders can be installed.</p> 
+		<img src="media/2.0/slots.png"/> 
+		<h3>New Project and Settings File Formats</h3>
+		<p>The new project file format has the .auprojx extension. Projects of the old format (.auproj) can be opened in the new version of Aura, but the project can only be saved in the new format. Settings files (materials, profiles, printers) also have a new format. Old format settings can be imported, settings can only be exported to a new format. An Aura.OPEN license is required to open old projects and settings.
+		</p> 
+		<h3>Licensing System</h3>
+		<p> Added licensing system including 3 levels of licenses corresponding to Desktop Anisoprinting packages (NEAT, EXT, OPEN).</p>
+		<h3>Other Changes</h3>
+		<ul class="points">
+			<li> Plastic extruders with 0.6 mm nozzle diameter have been added to Composer A4, A3 printers. </li>
+			<li> Added "manufacturer" field to material settings. </li>
+			<li> Added the ability to collapse groups of settings in printers, materials and profiles. </li>
+			<li> The settings for the internal structure of a part, which were previously only available in the Slicing panel, can now be edited in the profile settings (Profiles panel). </li>
+			<li> Confirmation is now requested when deleting printers, profiles and materials from the library. </li>
+			<li> When selecting extruders for printing various entities (outer shell, filling, etc.), the list now displays not the tool index, but the name of the extruder and the material installed in it. </li>
+			<li> The names of printers, profiles, materials no longer have to be unique, the main identifier of the settings is now id, not the name. </li>
+			<li> Changed captions for settings that were previously marked as (Developer). </li>
+			<li> Plastic consumption is now displayed in grams and cubic centimeters instead of grams and meters. </li>
+		</ul>
+		</div>
+	</div>
+   </div>
+</body>
+</html>

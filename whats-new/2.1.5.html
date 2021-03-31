@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>New in Aura</title>
+  <meta name="description" content="New in Aura">
+  <meta name="author" content="Anisoprint LLC">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id ="main" class="scroll">
+<h1>New in Aura v2.1</h1>
+    <div id="content">
+		<div id="raw">
+		<h3>New Premium features in Aura</h3>
+		<p>A premium license can be combined with any Aura edition (NEAT, EXT, or OPEN). If you want to upgrade your license to a Premium license, please contact your distributor.</p>
+		<h3>Masks (Premium feature)</h3>
+		<p>Part masks allow to set the custom internal structure in different volumes of the part. Two types of masks are available - internal masks and full masks. Internal masks allow setting internal structure parameters such as perimeter count, infill type, density, etc. Full masks additionally allow changing the number of external shell perimeters and top/bottom solid layers.</p>
+		<img src="media/2.1/masks.png"/> 
+		<h3>Support blockers (Premium feature)</h3>
+		<p>Allow preventing the generation of supports under the surfaces that are inside the support blocker volume.</p>
+		<h3>Support enforcers (Premium feature)</h3>
+		<p>Allow forcing the generation of supports under the surfaces that are inside the support enforcer volume. </p> 
+		<h3>CLI (Premium feature)</h3>
+		<p>Allow headless slicing from command line. It can be useful for automated scenarios of g-code preparation.</p> 
+		<h3>Translation of parts along the Z-axis</h3>
+		<p>Parts can now be translated by Z-axis. If the part is above the buildplate, support structures can be generated between the buildplate and the part. </p>
+		<h3>View control toolbar</h3>
+		<p>New toolbar has multiple tools to zoom, rotate and translate view, turn on and off the visibility of masks</p> 
+		<h3>Other Changes</h3>
+		<ul class="points">
+			<li> New button on the Models panel to put the part on the buildplate (the lower point of the part will be located on the buildplate). </li>
+			<li> You can now rename parts and masks in the list on the Models panel.  </li>
+			<li> If a STEP file contains multiple models, these models' relative location is now preserved when you load the file in Aura. You can create the model with masks in CAD software and load the result into Aura.  </li>
+			<li> Support structures are now generated correctly if one part is located above another. </li>
+			<li> Slicing progress indicator was reworked. </li>
+			<li> Multiple minor changes in toolpaths generation. </li>
+			<li> Override values now saved correctly on license re-activation.   </li>
+			<li> Project migration is now done through temp files, so the initial project is not modified when opening it in the newer version.  </li>
+		</ul>
+		</div>
+	</div>
+   </div>
+</body>
+</html>
