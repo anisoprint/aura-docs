@@ -58,6 +58,7 @@ module.exports = {
         },
       ],
     },
+    sidebarDepth: 2,
   },
   extraWatchFiles: [".vuepress/config/**"],
   plugins: [

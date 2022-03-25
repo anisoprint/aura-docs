@@ -6,13 +6,13 @@ In order to follow this quickstart guide, you have to have an account in Aura.Co
 
 ## Login
 
-When you navigate to [Aura.Connect]() for the first time, you will see the [Login Screen]().
+When you navigate to [Aura.Connect](https://aura3d.tech) for the first time, you will see the [Login](/aura-connect/gui#login) screen.
 
 ![Login screen](./media/login_screen.png)
 
 Use your accounts credentials in order to login
 
-After a successful login you will see the [Dashboard]()
+After a successful login you will see the [Dashboard](/aura-connect/gui#dashboard)
 
 ![Dashboard screen](./media/dashboard_1.png)
 
@@ -26,7 +26,7 @@ Before connecting your printer to Aura.Connect make sure it's connected to the i
 
 One of the things Aura.Connect does, is it helps you to remotely operate and monitor printers owned by your company. For that, Aura.Connect needs to be linked to your physcial printers. In order to connect a physical printer to Aura.Connect, follow the instructions below
 
-1. Navigate to the [Machines]() screen by clicking on the **'Machines'** button in the [Sidebar]()
+1. Navigate to the [Machines](/aura-connect/gui#machines) screen by clicking on the **'Machines'** button in the [Sidebar](/aura-connect/gui#sidebar)
 
     ![Machines button in the sidebar](./media/machines_button_in_the_sidebar.png)
 
@@ -64,7 +64,7 @@ If all the points above have been completed successfully, you will be able to se
 
 Aura.Connect allows you to remotely queue print jobs for your printers. For that you need to upload .gcode (and optionally .auprojx) files into your compnays' file library. In order to do that, follow the instruction below
 
-1. Navigate to the [Library]() screen by clicking on the **'Library'** button in the [Sidebar]()
+1. Navigate to the [Library](/aura-connect/gui#Library) screen by clicking on the **'Library'** button in the [Sidebar](/aura-connect/gui#sidebar)
 
     ![Library button in the sidebar](./media/library_button_in_the_sidebar.png)
 
@@ -91,7 +91,7 @@ If all the points above were successfully completed, the files that you selected
 
 At this point, Aura.Connect is connected to a physcial printer and is ready to queue jobs containing .gcode files onto them. In order to queue a job, follow the instructions below
 
-1. Navigate to the [Jobs]() screen by clicking on the **'Jobs'** button in the [Sidebar]()
+1. Navigate to the [Jobs](/aura-connect/gui#jobs) screen by clicking on the **'Jobs'** button in the [Sidebar](/aura-connect/gui#sidebar)
 
     ![Jobs button in the sidebar](./media/jobs_button_in_the_sidebar.png)
 
@@ -150,10 +150,10 @@ After the file has been successfully transfered, you will see the user interface
 
 ## Monitoring a print job
 
-Now that the job is started you can either monitor its progress in the [Jobs]() screen or the [Dashboard]() screen
+Now that the job is started you can either monitor its progress in the [Jobs](/aura-connect/gui#jobs) screen or the [Dashboard](/aura-connect/gui#dashboard) screen
 
 ## Accumulating statistics
 
-After the job is finished, statistic of its material consumptions and duration will be accumulated in Aura.Connect. You can view these statistics in the [Dashboard]() screen or in the [Profile]() screen
+After the job is finished, statistic of its material consumptions and duration will be accumulated in Aura.Connect. You can view these statistics in the [Dashboard](/aura-connect/gui#dashboard) screen or in the [Profile](/aura-connect/gui#profile) screen
 
 
