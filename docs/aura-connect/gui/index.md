@@ -56,9 +56,11 @@ Let's go over each of the sections in more detail below
 
 Navigate to the [Dashboard](#dashboard) by clicking the **'Dashboard'** button located in the [Sidebar](#sidebar)
 
-The dashboard section is often used as a quick summary of your companys' statistics and for monitoring the current state of your printers.
+The dashboard section is often used as a quick summary of your companys' statistics and for monitoring the current state of your printers. 
 
 ![Dashboard](./media/dashboard/dashboard.png)
+
+Dashboard is split into three main parts, listed below
 
 ### Printer summary
 
@@ -106,6 +108,12 @@ Shows a quick summary of statistics in your company. These statistics include:
     2. Jobs by user
 
 ![Company statistics summary](./media/dashboard/comapny-statistics-summary.png)
+
+Additionally, you can queue a new printing job using the [Job queue wizard]() by clicking the **'Queue new job'** button
+
+![Additional buttons](./media/dashboard/additional-buttons.png)
+
+> If you haven't added any printers in Aura.Connect yet, you will see a **'Add new machine'** button instead of the **'Queue new job'** button
 
 ## Company
 
