@@ -51,7 +51,7 @@ The reinforced infills are placed inside the part shell. It adds strength to the
 ![Reinforced infill](./media/reinforced-infill.png)
 
 ## Support
-Support structures are printed on the buildplate or even on the part to support overhangs from dropping down. The supports are removed after the printing. You can read more about the support structures in Aura [here](/docs/supports/).
+Support structures are printed on the buildplate or even on the part to support overhangs from dropping down. The supports are removed after the printing. You can read more about the support structures in Aura [here](/aura/supports/).
 
 ![Skirt](./media/support.png)
 

@@ -8,7 +8,7 @@ When you start to add a layup scheme, the layup scheme will firstly be empty and
 
 ![Layup panel](./media/layup-panel.png) 
 
-The model will change its color, and now on the surface, it will be possible to see layer edges. All these layers are macrolayers (see [Macrolayers technology](/docs/macrolayers/)  guide).
+The model will change its color, and now on the surface, it will be possible to see layer edges. All these layers are macrolayers (see [Macrolayers technology](/aura/macrolayers/)  guide).
 
 ![Layers](./media/layers.png) 
 

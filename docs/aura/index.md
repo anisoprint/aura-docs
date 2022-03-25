@@ -12,10 +12,3 @@
   * [CLI](/aura/premium/cli/)
 * Licensing
   * [Product Activation](/aura/licensing/activation/)
-
-# Aura.Connect Docs
-
-* Documentation
-  * [Getting an account](/aura-connect/getting-an-account/)
-  * [Quickstart](/aura-connect/quickstart/)
-  * [GUI Overview](/aura-connect/gui/)

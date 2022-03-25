@@ -28,7 +28,7 @@ The main menu provides actions for project and models (File), models actions (Ed
 * **Open project** – shows open file dialog (appropriate file formats - *.auproj, *.auprojx) to open project. If there is work in progress, then the user will see the suggestion to save progress, and then the new project from the file will be open.
 * **Save project** – saves project to the current file.
 * **Save project as** – saves the project as a new file to a new location.
-* **Export session** – exports all slicing settings, including printer, materials and profile settings. The resulting file can be used to slice the model using [Aura.CLI](/docs/premium/cli/).
+* **Export session** – exports all slicing settings, including printer, materials and profile settings. The resulting file can be used to slice the model using [Aura.CLI](/aura/premium/cli/).
 * **Settings** – opens settings dialog, which is used to set various hotkeys, general settings, etc.
 
 ### Edit
@@ -39,8 +39,8 @@ The main menu provides actions for project and models (File), models actions (Ed
 * **Rotate** – shows form and manipulator to rotate models around X, Y, and Z-axis.
 * **Resize** – shows form to resize models.
 * **Clone** – clones model and place it at the same place.
-* **Set layup** – shows form to define [layup structure scheme](/docs/layuprule/) for the model.
-* **Set mask** – adds the selected model as a [mask](/docs/premium/masks/) to another base model.
+* **Set layup** – shows form to define [layup structure scheme](/aura/layuprule/) for the model.
+* **Set mask** – adds the selected model as a [mask](/aura/premium/masks/) to another base model.
 
 ### Tools
 * **Update Composer firmware** – opens the dialog window where the user could maintain Composer firmware.
@@ -94,8 +94,8 @@ Button                                         | Model action
 ![Rotate](./media/m-rotate.png)                | [Rotate](./#rotation) models along X,Y,Z axes
 ![Resize](./media/m-resize.png)                | Resize models
 ![Clone](./media/m-clone.png)                  | Clone models
-![Layer structure](./media/m-layuprule.png)    | Set [layup structure scheme](/docs/layuprule/)
-![Add mask](./media/m-mask.png)                | Add model as [mask](/docs/premium/masks/)
+![Layer structure](./media/m-layuprule.png)    | Set [layup structure scheme](/aura/layuprule/)
+![Add mask](./media/m-mask.png)                | Add model as [mask](/aura/premium/masks/)
 
 ### Movement
 
