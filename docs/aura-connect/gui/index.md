@@ -117,6 +117,34 @@ Additionally, you can queue a new printing job using the [Job queue wizard]() by
 
 ## Company
 
+Navigate to the [Company](#company) by clicking the **'Company'** button located in the [Sidebar](#sidebar)
+
+The company section contains information about all the users in the company. If you're a company admin you are also able to change information about the company, add new users, add other users to company admins.
+
+![Company](./media/company/company.png)
+
+This section is split into three main parts listed below
+
+### Company information
+
+In the upper left part you will see the [Info](#company-information) panel
+
+### Company users
+
+In the lower left part you will see the [Users](#company-users) panel
+
+### Company admins
+
+In the upper right part you will see the [Admins](#company-admins) panel
+
+### Edit company information
+
+In order to edit company information press the **'Edit'** button in the info 
+
+### Add new users to company
+
+### Add new admins to comapny
+
 ## Library
 
 ## Machines
