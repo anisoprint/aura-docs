@@ -233,11 +233,11 @@ Click on the **'Add new category'** button in the [Categories](#categories-panel
 
 Enter the name of a new category and click the **'Add'** button. A new category will appear in the [Categories](#categories-panel) panel list. This category can now be used when uploading new files, or you can change the category of already existing files to it
 
-### Add new file form
+### Add file form
 
 Click on the **'Add new file'** button in the [Files](#files-panel) panel in order to add a new file, a form on the right will appear
 
-![Add new file form](./media/library/add-new-file.png)
+![Add file form](./media/library/add-new-file.png)
 
 Drag and drop the desired .gcode file, and, optionally .auprojx, files, select a category and click the **'Upload'** button
 
@@ -245,9 +245,9 @@ Drag and drop the desired .gcode file, and, optionally .auprojx, files, select a
 You can also click on the cloud icon in order to browse for files on your PC
 :::
 
-### Inspect a file
+### File inspector
 
-Click on the file in the [Files](#files-panel) panel in order to inspect a file, a [File inspector](#inspect-a-file)
+Click on the file in the [Files](#files-panel) panel in order to inspect a file, a [File inspector](#file-inspector)
 
 ![File inspector](./media/library/file-inspector.png)
 
@@ -265,7 +265,7 @@ You will see all the information about a file, which is stored in Aura.Connect, 
 Only successfully finished prints increment the print count
 :::
 
-The following actions may be performed in the [File inspector](#inspect-a-file):
+The following actions may be performed in the [File inspector](#file-inspector):
 
 1. Delete the file by clicking on the trash icon in the top right
 2. Edit the file by clicking on the pen icon in the top right
@@ -346,7 +346,58 @@ Type the command in the text field, and press **'Enter'** to send a command
 
 ### Customize printer inspector
 
+[Printer inspector's](#printer-inspector) layout may be customized. You can hide certain controls, resize them, move them, swap them (if they're the same size).
 
+Press the **'Edit layout'** button in the top right of the [Printer inspector](#printer-inspector) to enter the layout editing mode
+
+After you're finished changing the layout, press the **'Save layout'** button
+
+Also, at the top, you will see buttons, which control the visibiity of certain controls. Toggle them on and off as you desire.
+
+::: tip
+If you've really messed up the layout, resetting it is a quick and easy way to get a usable layout. Reset it by clicking the **'Reset view'** button in the [Additional printer inspector actions](#additional-printer-inspector-actions) menu
+:::
+
+#### Additional printer inspector actions
+
+Additionally, you can click the three dots button in the top right of the [Printer inspector](#printer-inspector) to:
+
+1. Update connection with the printer
+2. Delete printer
+3. Edit printer's name
+4. Reset view
+
+![Printer inspector more actions](./media/machines/printer-inspector-more-actions.png)
+
+::: warning
+Only admins of your company may delete printers 
+:::
+
+### Printer info form
+
+Click the **'Edit printer'** button in the [Additional printer inspector actions](#additional-printer-inspector-actions) menu, a form in the bottom right corner of the [Machines](#machines) screen will appear
+
+![Printer info form](./media/machines/printer-info-form.png)
+
+Here you can change the name of the printer
+
+### Add new printer
+
+::: warning
+Only admins of your company may add new printer
+:::
+
+Click the **'Add new machine'** button at the top of the [Printer list](#printer-list), a form in the bottom right corner of the [Machines](#machines) screen will appear
+
+![Add new printer form](./media/machines/add-new-printer-form.png)
+
+Here you can add a new printer to your company, by entering the name, selecting the model, and the *Machine ID* of the printer you're trying to add. After you've entered all the information, click the **'Add'** button and wait for the form to expand with the newly generated connection code for the printer
+
+![Add new printer form with connection code](./media/machines/add-new-printer-form-with-connection-code.png)
+
+Use the code provided to you to connet to the newly added printer
+
+> Refer to the [Establishing a connection]() article for more information
 
 ## Jobs
 
