@@ -54,7 +54,7 @@ Let's go over each of the sections in more detail below
 
 ## Dashboard
 
-Navigate to the [Dashboard](#dashboard) by clicking the **'Dashboard'** button located in the [Sidebar](#sidebar)
+Navigate to the [Dashboard](#dashboard) screen by clicking the **'Dashboard'** button located in the [Sidebar](#sidebar)
 
 The dashboard section is often used as a quick summary of your company's statistics and for monitoring the current state of your printers. 
 
@@ -117,7 +117,7 @@ Additionally, you can queue a new printing job using the [Job queue wizard]() by
 
 ## Company
 
-Navigate to the [Company](#company) by clicking the **'Company'** button located in the [Sidebar](#sidebar)
+Navigate to the [Company](#company) screen by clicking the **'Company'** button located in the [Sidebar](#sidebar)
 
 The company section contains information about all the users in the company. If you're a company admin you are also able to change information about the company, add new users, add other users to company admins.
 
@@ -185,8 +185,102 @@ Click on the user you want to make an admin to make them your company's admin
 
 ## Library
 
+Navigate to the [Library](#library) screen by clicking the **'Library'** button located in the [Sidebar](#sidebar)
+
+The library section contains all the files uploaded to Aura.Connect by your company. You can also group your files into categories, upload new files, delete uploaded files.
+
+![Library](./media/library/library.png)
+
+### Categories panel
+
+In the upper left part you will see the [Categories](#categories-panel) panel
+
+![Categories panel](./media/library/categories-panel.png)
+
+Here you will see a list of all categories added by users of your company
+
+Hover over a category and click on the trash icon on the right in order to remove a category
+
+Click on a category to filter the files by the selected category
+
+::: tip
+There are two categories, which you cannot delete:
+
+1. **#All** - shows all files
+2. **Void** - show files with no category
+:::
+
+### Files panel
+
+In the lower left part you will see the [Files](#files-panel) panel
+
+![Files panel](./media/library/files-panel.png)
+
+Here you will see a list of all files uploaded to Aura.Connect by users of your company
+
+Hover over a file and click on the trash icon on the right in order to remove the file
+
+Click on a file in order to inspect it
+
+::: tip
+Use the search box if you have many files. The search is performed by the file's name
+:::
+### Add category form
+
+Click on the **'Add new category'** button in the [Categories](#categories-panel) panel in order to add a new category, a form on the right will appear
+
+![Add category form](./media/library/add-new-category.png)
+
+Enter the name of a new category and click the **'Add'** button. A new category will appear in the [Categories](#categories-panel) panel list. This category can now be used when uploading new files, or you can change the category of already existing files to it
+
+### Add new file form
+
+Click on the **'Add new file'** button in the [Files](#files-panel) panel in order to add a new file, a form on the right will appear
+
+![Add new file form](./media/library/add-new-file.png)
+
+Drag and drop the desired .gcode file, and, optionally .auprojx, files, select a category and click the **'Upload'** button
+
+::: tip
+You can also click on the cloud icon in order to browse for files on your PC
+:::
+
+### Inspect a file
+
+Click on the file in the [Files](#files-panel) panel in order to inspect a file, a [File inspector](#inspect-a-file)
+
+![File inspector](./media/library/file-inspector.png)
+
+You will see all the information about a file, which is stored in Aura.Connect, including:
+
+1. Printer model, for which the file is designed for
+2. Duration for print
+3. User, who added the file
+4. .gcode file
+5. .auprojx file
+6. Category of the file
+7. Print count
+
+::: tip
+Only successfully finished prints increment the print count
+:::
+
+The following actions may be performed in the [File inspector](#inspect-a-file):
+
+1. Delete the file by clicking on the trash icon in the top right
+2. Edit the file by clicking on the pen icon in the top right
+3. Add the file to a queue to the desired printer via the [Printer selection dialog]()
+
+When editing a file, you can change its .gcode, .auprojx files and its category by drag and dropping the files from your PC, or by clicking on the cloud icon.
+
 ## Machines
+
+Navigate to the [Machines](#machines) screen by clicking the **'Machines'** button located in the [Sidebar](#sidebar)
 
 ## Jobs
 
+Navigate to the [Jobs](#jobs) screen by clicking the **'Jobs'** button located in the [Sidebar](#sidebar)
+
 ## Profile
+
+Navigate to the [Profile](#profile) screen by clicking the **'Profile'** button located in the [Sidebar](#sidebar)
