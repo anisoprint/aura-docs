@@ -129,21 +129,35 @@ This section is split into three main parts listed below
 
 In the upper left part you will see the [Info](#info-panel) panel
 
-Here you will be able to see your company's 
+![Info panel](./media/company/info-panel.png)
+
+Here you will see your company's country and address 
 
 ### Users panel
 
 In the lower left part you will see the [Users](#users-panel) panel
 
+![Users panel](./media/company/users-panel.png)
+
+Here you will see a list of all users registered in your company
+
+Hover over a user and click on the trash icon on the right in order to remove a user from your company
+
 ### Admins panel
 
 In the upper right part you will see the [Admins](#admins-panel) panel
 
-### Info edit form
+![Admins panel](./media/company/admins-panel.png)
 
-In order to edit company information press the **'Edit'** button in the [Info](#info-panel) panel
+Here you will see a list of all users which have been made admins in your company
 
-![Company info edit form](./media/company/company-editor.png)
+Hover over a user and click on the trash icon on the right in order to deprive them of admin rights in your company
+
+### Company info form
+
+In order to edit company information press the **'Edit'** button in the [Info](#info-panel) panel, a form on the right will appear
+
+![Company info form](./media/company/company-info-form.png)
 
 Press the **'Apply'** button after you've finished editing your company's information, this will save all of your changes to Aura.Connect
 
@@ -151,13 +165,23 @@ Press the **'Reset'** button if you wish to revert all the changes made to your 
 
 Press the **'Cancel'** button or a close button in the top right corner of the form to close the form  
 
-### New user form
+### Add user form
 
-In order to add a new user to your copmpany press the **'Register new user'** button in the [Users](#users-panel)
+In order to add a new user to your copmpany press the **'Register new user'** button in the [Users](#users-panel), a form on the right will appear
 
-### New admin dialog
+![Add new user form](./media/company/register-new-user-form.png)
 
-In order to add a new admin to your company press the **'Add'** button in the [Admins](#admins-panel) panel
+Press the **'Add'** button after you've entered all the necesary user information to add a new user to your company
+
+Press the close button in the top right corner of the form to close the form
+
+### Add admin dialog
+
+In order to add a new admin to your company press the **'Add'** button in the [Admins](#admins-panel) panel, a dialog will appear
+
+![Add admin dialog](./media/company/add-admin-dialog.png)
+
+Click on the user you want to make an admin to make them your company's admin
 
 ## Library
 
