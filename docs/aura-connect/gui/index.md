@@ -56,7 +56,7 @@ Let's go over each of the sections in more detail below
 
 Navigate to the [Dashboard](#dashboard) by clicking the **'Dashboard'** button located in the [Sidebar](#sidebar)
 
-The dashboard section is often used as a quick summary of your companys' statistics and for monitoring the current state of your printers. 
+The dashboard section is often used as a quick summary of your company's statistics and for monitoring the current state of your printers. 
 
 ![Dashboard](./media/dashboard/dashboard.png)
 
@@ -125,25 +125,39 @@ The company section contains information about all the users in the company. If 
 
 This section is split into three main parts listed below
 
-### Company information
+### Info panel
 
-In the upper left part you will see the [Info](#company-information) panel
+In the upper left part you will see the [Info](#info-panel) panel
 
-### Company users
+Here you will be able to see your company's 
 
-In the lower left part you will see the [Users](#company-users) panel
+### Users panel
 
-### Company admins
+In the lower left part you will see the [Users](#users-panel) panel
 
-In the upper right part you will see the [Admins](#company-admins) panel
+### Admins panel
 
-### Edit company information
+In the upper right part you will see the [Admins](#admins-panel) panel
 
-In order to edit company information press the **'Edit'** button in the info 
+### Info edit form
 
-### Add new users to company
+In order to edit company information press the **'Edit'** button in the [Info](#info-panel) panel
 
-### Add new admins to comapny
+![Company info edit form](./media/company/company-editor.png)
+
+Press the **'Apply'** button after you've finished editing your company's information, this will save all of your changes to Aura.Connect
+
+Press the **'Reset'** button if you wish to revert all the changes made to your company's information
+
+Press the **'Cancel'** button or a close button in the top right corner of the form to close the form  
+
+### New user form
+
+In order to add a new user to your copmpany press the **'Register new user'** button in the [Users](#users-panel)
+
+### New admin dialog
+
+In order to add a new admin to your company press the **'Add'** button in the [Admins](#admins-panel) panel
 
 ## Library
 
