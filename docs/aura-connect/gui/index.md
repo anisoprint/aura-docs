@@ -277,6 +277,77 @@ When editing a file, you can change its .gcode, .auprojx files and its category 
 
 Navigate to the [Machines](#machines) screen by clicking the **'Machines'** button located in the [Sidebar](#sidebar)
 
+![Machines screen](./media/machines/machines.png)
+
+The machines section contains all the printers added to your company, each of the printers can be viewed via the [Printer inspector](#printer-inspector)
+
+### Printer list
+
+In the left part of the [Machines](#machines) screen you will see a list of all printers added by your company in Aura.Connect
+
+![Printer list](./media/machines/printer-list.png)
+
+The [Printer cards](#printer-list) contain the following information about the printer:
+
+1. Printer model
+2. Printer name
+3. Status of the printer
+4. Error count on the printer
+
+### Printer inspector
+
+Click on one of the [Printer cards](#printer-list) in the [Printer list](#printer-list) in order to inspect the printer, a [Printer inspector](#printer-inspector) will open
+
+![Printer inspector](./media/machines/printer-inspector.png)
+
+You will see a panel, that contains all of the information and interactive controls related to a printer. To be more specific, you will see the following controls:
+
+#### Current jobs (informational & interactive control)
+
+Shows all the jobs that are currently queued onto the selected printer
+
+![Current jobs control](./media/machines/current-jobs-control.png)
+
+You can click on one of the jobs to view it in the [Jobs](#jobs) section
+
+#### Archive jobs (informational control)
+
+Show all the jobs archives that are available on the selected printer
+
+![Archive jobs control](./media/machines/archive-jobs-control.png)
+
+You can click on one of the archives to view it in the [Jobs](#jobs) section
+
+#### Telemetry (informational control)
+
+Shows the telemetry on the selected printer
+
+![Telemetry control](./media/machines/telemetry-control.png)
+
+Change the period for which you're viewing the telemetry [1], and filter the telemetry by types and subtypes [2]
+
+::: tip
+If you can't see the fitering switches, use the toggle buttons next to the **'Telemetry'** title in the top left corner to toggle the visiblity of the filtering switches 
+:::
+
+#### Error log (informational control)
+
+Show the different errors, warnings, and informational messages sent by a printer.
+
+![Error log control](./media/machines/error-control.png)
+
+#### Terminal (interactive control)
+
+Is used to send commands and view raw logs from the printer.
+
+![Terminal control](./media/machines/terminal-control.png)
+
+Type the command in the text field, and press **'Enter'** to send a command 
+
+### Customize printer inspector
+
+
+
 ## Jobs
 
 Navigate to the [Jobs](#jobs) screen by clicking the **'Jobs'** button located in the [Sidebar](#sidebar)
