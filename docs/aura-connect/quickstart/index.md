@@ -6,13 +6,13 @@ In order to follow this quickstart guide, you have to have an account in Aura.Co
 
 ## Login
 
-When you navigate to [Aura.Connect](https://aura3d.tech) for the first time, you will see the [Login](/aura-connect/gui#login) screen.
+When you navigate to [Aura.Connect](https://aura3d.tech) for the first time, you will see the [Login](/aura-connect/gui/#login) screen.
 
 ![Login screen](./media/login_screen.png)
 
 Use your accounts credentials in order to login
 
-After a successful login you will see the [Dashboard](/aura-connect/gui#dashboard)
+After a successful login you will see the [Dashboard](/aura-connect/gui/#dashboard)
 
 ![Dashboard screen](./media/dashboard_1.png)
 
@@ -26,13 +26,13 @@ Before connecting your printer to Aura.Connect make sure it's connected to the i
 
 One of the things Aura.Connect does, is it helps you to remotely operate and monitor printers owned by your company. For that, Aura.Connect needs to be linked to your physcial printers. In order to connect a physical printer to Aura.Connect, follow the instructions below
 
-1. Navigate to the [Machines](/aura-connect/gui#machines) screen by clicking on the **'Machines'** button in the [Sidebar](/aura-connect/gui#sidebar)
+1. Navigate to the [Machines](/aura-connect/gui/#machines) screen by clicking on the **'Machines'** button in the [Sidebar](/aura-connect/gui/#sidebar)
 
     ![Machines button in the sidebar](./media/machines_button_in_the_sidebar.png)
 
     > While at the Dashboard screen, if no printers were added in Aura.Connect by your company, you can click the **'Add new machine'** button, which will redirect you to the Machines screen
 
-2. Click on the **'Add new machine'** button in the top left and you will see a [Machine creation form]() appear in the bottom left
+2. Click on the **'Add new machine'** button in the top left and you will see a [Machine creation form](/aura-connect/gui/#add-new-printer) appear in the bottom left
 
     ![Machines screen](./media/machines_screen_when_adding_a_new_printer.png)
 
@@ -64,11 +64,11 @@ If all the points above have been completed successfully, you will be able to se
 
 Aura.Connect allows you to remotely queue print jobs for your printers. For that you need to upload .gcode (and optionally .auprojx) files into your compnays' file library. In order to do that, follow the instruction below
 
-1. Navigate to the [Library](/aura-connect/gui#Library) screen by clicking on the **'Library'** button in the [Sidebar](/aura-connect/gui#sidebar)
+1. Navigate to the [Library](/aura-connect/gui/#library) screen by clicking on the **'Library'** button in the [Sidebar](/aura-connect/gui/#sidebar)
 
     ![Library button in the sidebar](./media/library_button_in_the_sidebar.png)
 
-2. Click on the **'Add new file'** button [1] and you will see a [File upload form]() appear [2].
+2. Click on the **'Add new file'** button [1] and you will see a [File upload form](/aura-connect/gui/#add-file-form) appear [2].
 
     ![Library screen with file upload form](./media/library_screen_with_file_upload_form.png)
 
@@ -81,7 +81,7 @@ Aura.Connect allows you to remotely queue print jobs for your printers. For that
 5. Click on the **'Upload'** button.
 
 
-After some time you will see a new row appear in the [Files]() area. You can inspect the uploaded files by clicking on the newly created row
+After some time you will see a new row appear in the [Files](/aura-connect/gui/#files-panel) area. You can inspect the uploaded files by clicking on the newly created row
 
 ![Library screen after upload](./media/library_screen_after_upload.png)
 
@@ -91,11 +91,11 @@ If all the points above were successfully completed, the files that you selected
 
 At this point, Aura.Connect is connected to a physcial printer and is ready to queue jobs containing .gcode files onto them. In order to queue a job, follow the instructions below
 
-1. Navigate to the [Jobs](/aura-connect/gui#jobs) screen by clicking on the **'Jobs'** button in the [Sidebar](/aura-connect/gui#sidebar)
+1. Navigate to the [Jobs](/aura-connect/gui/#jobs) screen by clicking on the **'Jobs'** button in the [Sidebar](/aura-connect/gui/#sidebar)
 
     ![Jobs button in the sidebar](./media/jobs_button_in_the_sidebar.png)
 
-2. Click on the **'Queue new job'** button and you will see a [Job queue wizard]() dialog window appear.
+2. Click on the **'Queue new job'** button and you will see a [Job queue wizard](/aura-connect/gui/#queue-a-new-job) dialog window appear.
 
 3. In the dialog window, select the printer we added earlier, then select a file that we also added previously, click **'Confirm'**. A new job in the left hand side will appear.
 
@@ -107,7 +107,7 @@ You can queue more jobs, as needed. Or click on the job card on the left in orde
 
 ![Inspection of a queued job](./media/inspection_of_a_queued_job.png)
 
-> You may also use the [Job Timeline]() in order to select a queued job for inspection
+> You may also use the [Job Timeline](/aura-connect/gui/#job-timeline) in order to select a queued job for inspection
 
 ## Starting a print job
 
@@ -135,7 +135,7 @@ In order to start the job, press **'Print'**
 
 ### From Aura.Connect
 
-In order to start the job **from Aura.Connect**, we need to click on the start buttons either in the [Job Card]() [1] or [Job Inspector]() [2]
+In order to start the job **from Aura.Connect**, we need to click on the start buttons either in the [Job Card](/aura-connect/gui/#job-cards) [1] or [Job Inspector](/aura-connect/gui/#job-inspector) [2]
 
 ![Job screen buttons which start the job](./media/jobs_screen_buttons_which_start_the_job.png)
 
@@ -150,10 +150,10 @@ After the file has been successfully transfered, you will see the user interface
 
 ## Monitoring a print job
 
-Now that the job is started you can either monitor its progress in the [Jobs](/aura-connect/gui#jobs) screen or the [Dashboard](/aura-connect/gui#dashboard) screen
+Now that the job is started you can either monitor its progress in the [Jobs](/aura-connect/gui/#jobs) screen or the [Dashboard](/aura-connect/gui/#dashboard) screen
 
 ## Accumulating statistics
 
-After the job is finished, statistic of its material consumptions and duration will be accumulated in Aura.Connect. You can view these statistics in the [Dashboard](/aura-connect/gui#dashboard) screen or in the [Profile](/aura-connect/gui#profile) screen
+After the job is finished, statistic of its material consumptions and duration will be accumulated in Aura.Connect. You can view these statistics in the [Dashboard](/aura-connect/gui/#dashboard) screen or in the [Profile](/aura-connect/gui/#profile) screen
 
 

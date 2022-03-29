@@ -247,7 +247,7 @@ You can also click on the cloud icon in order to browse for files on your PC
 
 ### File inspector
 
-Click on the file in the [Files](#files-panel) panel in order to inspect a file, a [File inspector](#file-inspector)
+Click on the file in the [Files](#files-panel) panel in order to inspect a file, a [File inspector](#file-inspector) will appear on the right side of the screen
 
 ![File inspector](./media/library/file-inspector.png)
 
@@ -402,6 +402,147 @@ Use the code provided to you to connet to the newly added printer
 ## Jobs
 
 Navigate to the [Jobs](#jobs) screen by clicking the **'Jobs'** button located in the [Sidebar](#sidebar)
+
+The jobs section contains all of the jobs queued onto printers in your company. Here you may inspect the jobs, monitor their progress, delete, reorder, start, stop, and pause them.
+
+![Jobs](./media/jobs/jobs.png)
+
+There are two tabs available in this screen
+
+1. Current
+    - Shows all the jobs that are currently available to interact with
+2. Archive
+    - Shows all the arhives created from jobs that were finished or cancelled
+
+Switch between tabs, by clicking the buttons located in the upper right corner of the screen
+
+### Job cards
+
+In the **Current** tab, in the upper left part you will see [Job cards](#job-cards) for each job queued by your company
+
+![Job cards](./media/jobs/job-cards.png)
+
+Each card has the following information:
+
+1. Printer name (for which it is queued)
+2. Order on the printer (each printer has its own queue)
+3. Duration, if available
+4. Progress, if the job is started
+5. Estimated time of finish, if the job is started
+6. Job status in the upper right corner
+
+Additionally, next to the **Job status**, you will see buttons which control the state of the job. Use these buttons to:
+
+1. Start the job
+2. Pause the job
+3. Stop the job
+
+### Job inspector
+
+Click on one of the [Job cards](#job-cards) to inspect the job in more detail, a [Job inspector](#job-inspector) will appear on the right side of the screen 
+
+![Job inspector](./media/jobs/job-inspector.png)
+
+Here you will see all the information about a job, including:
+
+1. Name of .gcode file contained in the file attached to a job
+2. Status of the job
+3. Source
+    - A file attached to a job, which contains .gcode that is going to be printed
+4. Printer
+    - A printer, to which the job has been assigned to
+5. Owner
+    - A user, which cread the job
+6. Order
+    - Order of the job on a particular printer
+7. Material consumptions
+    - Calculated consumptions of different materials in grams for plastic and in meters for fiber
+
+Additionally, in the upper right corner you can:
+
+1. Start the job
+2. Pause the job
+3. Stop the job
+4. Delete the job
+
+::: tip
+Use the arrow buttons to change the order of the job on the printer
+:::
+
+### Job timeline
+
+In the lower part of the [Jobs](#jobs) screen you will see a timeline with all jobs queued for different printers
+
+![Jobs timeline](./media/jobs/jobs-timeline.png)
+
+Here you will see the jobs that were queued onto printers in the order, that has been assigned to them. If a job has a known duration time, it will be displayed correctly chronologically. If the job's duration is not available it will be displayed as a fading rectangle.
+
+Move along the timeline by holding down the left mouse button and moving your mouse. 
+
+Zoom in and out on the timeline using the mousewheel
+
+Select a job on the timeline by left clicking on it. This will open the job in the [Job inspector](#job-inspector)
+
+Use the buttons in the top right part of the timeline to:
+
+1. Lock the timeline
+    - Locks the timeline and follows the current time (greeen line) automatically
+2. Reset the timeline
+    - Resets the zoom and position on the timeline to the default value
+
+### Queue a new job
+
+Press the **'Queue new job'** button in the upper left part of the [Jobs](#jobs) screen white on the **'Current'** tab, this will open a [Job queue wizard](#queue-a-new-job) dialog. This dialog has two steps, which you have to complete in order to queue a job, these steps are described below
+
+#### Selecting a printer for a new job
+
+First, you need to select a printer to which this job will be assigned. Do so by clicking on the printer in the list. 
+
+![Job queue wizard step 1](./media/jobs/job-queue-wizard-select-printer.png)
+
+After the printer is selected the **'Next'** button will become available, click it to go to the next step.
+
+#### Selecting a file for a new job
+
+After you've successfully selected a printer, you will be prompted to select a file, which contains the .gcode you want to print in the new job. Select the desired file by clicking on it.
+
+![Job queue wizard step 2](./media/jobs/job-queue-wizard-select-file.png)
+
+After the file is selected the **'Confirm'** button will become avaialble. Click it and the job will now be queued on the printer you selected with the selected file
+
+### Filter jobs by printer
+
+In the upper middle part of the [Jobs](#jobs) screen, you will see toggle buttons, that allow you to filter the jobs that are displayed by printers
+
+![Job screen printer toggles](./media/jobs/job-screen-printer-toggles.png)
+
+Switch them on and off by clicking on them, if you wish to see jobs for certain printers only
+
+### Archives panel
+
+In the left part of the [Jobs](#jobs) screen, while in the **'Archives'** tab, you will see the [Archives](#archives-panel) panel
+
+![Archives panel](./media/jobs/archives.png)
+
+Here you will see a list of all finished jobs in your company. We also refer to them as **Job archives**
+
+### Archive inspector
+
+Click on one of the job archives in the [Archives](#archives-panel) panel in order to inspect them, an [Archive inspector](#archive-inspector) will appear on the right side
+
+![Archives inspector](./media/jobs/archive-inspector.png)
+
+Here you will see the following information:
+
+1. .gcode file name, that was being priting
+2. Source
+    - A file that has been upload to Aura.Connect and is available in the [Library](#library)
+3. Printer
+    - The printer that has been printing the job, which if avaialble in the [Machiens](#machines) section
+4. Owner
+    - The user who has created the job
+
+Additionally, you can press the **'Print again'** button to queue the same file onto the same printer
 
 ## Profile
 
