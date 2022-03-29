@@ -89,6 +89,10 @@ If all the points above were successfully completed, the files that you selected
 
 ## Queuing a print job
 
+::: warning
+All queued jobs require the user to manually start them
+:::
+
 At this point, Aura.Connect is connected to a physcial printer and is ready to queue jobs containing .gcode files onto them. In order to queue a job, follow the instructions below
 
 1. Navigate to the [Jobs](/aura-connect/gui/#jobs) screen by clicking on the **'Jobs'** button in the [Sidebar](/aura-connect/gui/#sidebar)
@@ -151,6 +155,12 @@ After the file has been successfully transfered, you will see the user interface
 ## Monitoring a print job
 
 Now that the job is started you can either monitor its progress in the [Jobs](/aura-connect/gui/#jobs) screen or the [Dashboard](/aura-connect/gui/#dashboard) screen
+
+## Finishing a print job
+
+After the print is finished you must confirm it on the printer screen. Click the **'Done'** button at the bottom of the screen
+
+![Finished job on printer screen](./media/finished_job_on_printer_screen.png)
 
 ## Accumulating statistics
 

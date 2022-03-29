@@ -51,6 +51,7 @@ module.exports = {
           title: "Documentation",
           collapsable: false,
           children: [
+            ["/aura-connect/before-you-start/", "Before you start"],
             ["/aura-connect/getting-an-account/", "Getting an Account"],
             ["/aura-connect/quickstart/", "Quickstart"],
             ["/aura-connect/gui/", "GUI Overview"],

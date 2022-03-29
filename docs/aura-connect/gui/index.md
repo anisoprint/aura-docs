@@ -547,3 +547,78 @@ Additionally, you can press the **'Print again'** button to queue the same file 
 ## Profile
 
 Navigate to the [Profile](#profile) screen by clicking the **'Profile'** button located in the [Sidebar](#sidebar)
+
+The profile section contains all the information about the user, their jobs, stats, archives, active devices. You can also change your password and profile information
+
+![Profile](./media/profile/profile.png)
+
+### Profile information panel
+
+In the upper left part you will see the [Profile information](#profile-information-panel) panel
+
+![Profile information](./media/profile/information.png)
+
+As the name implies, this panel holds information about your profile, including:
+
+1. Your email
+2. First & Second names
+3. Phone number (if any)
+
+### Profile statistics panel
+
+In the lower left part you will se the [Profile statistics](#profile-statistics-panel) panel
+
+![Profile statistics](./media/profile/statistics.png)
+
+Profile statistics include:
+
+1. Amount of jobs finished
+2. Print hours
+3. Plastic consumption
+4. Composite consumption
+
+You can monitor and analyze your activity using the information provided by this panel for different periods (e.g. weekly, monthly, total)
+
+### Active devices panel
+
+On the right the first panel from the top is the [Active devices](#active-devices-panel) panel
+
+![Active devices](./media/profile/devices.png)
+
+In this panel you will see a list of all devices (their IP addresses) which have been used to log into your account
+
+### Profile jobs panel
+
+On the right the second panel from the top is the [Profile jobs](#profile-jobs-panel) panel
+
+![Profile jobs](./media/profile/current-jobs.png)
+
+This panel contains a list of all jobs queued by you
+
+### Profile archives panel
+
+On the right the third panel from the top is the [Profile archives](#profile-archives-panel) panel
+
+![Profile archives](./media/profile/archive-jobs.png)
+
+This panel contains a list of all finished jobs by you 
+
+### Edit profile form
+
+Click on the **'Edit'** button in the [Profile information](#profile-information-panel) panel, on the right you will see the [Edit profile](#edit-profile-form) form
+
+![Edit profile form](./media/profile/edit-form.png)
+
+Here you can change information about you profile, including:
+
+1. Your email
+2. First & Second names
+3. Phone
+
+### Change password form
+
+Click on the **'Change password'** button in the [Profile information](#profile-information-panel) panel, on the right you will see the [Change password](#change-password-form) form
+
+![Change password form](./media/profile/change-passowrd-form.png)
+
+This form allows you to change your passoword
