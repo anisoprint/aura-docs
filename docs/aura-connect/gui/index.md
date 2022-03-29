@@ -344,6 +344,10 @@ Is used to send commands and view raw logs from the printer.
 
 Type the command in the text field, and press **'Enter'** to send a command 
 
+::: danger
+Sending command to printer while it's printing is dangerous, because commands won't be executed immideately!
+:::
+
 ### Customize printer inspector
 
 [Printer inspector's](#printer-inspector) layout may be customized. You can hide certain controls, resize them, move them, swap them (if they're the same size).
