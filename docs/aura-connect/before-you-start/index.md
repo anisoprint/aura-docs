@@ -48,4 +48,4 @@ Full list of potential hazards can be found in the [Manual](https://support.anis
 
 ## Aura.Connect specific terminology
 
-If, while reading the documentation, you're having trouble understanding ceratin parts of it, refer to [Aura.Connect terminology]()
+If, while reading the documentation, you're having trouble understanding ceratin parts of it, refer to [Aura.Connect terminology](/aura-connect/terminology/)

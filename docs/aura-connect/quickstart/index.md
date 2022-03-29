@@ -2,7 +2,7 @@
 
 This document will show and explain basic functionality of Aura.Connect
 
-In order to follow this quickstart guide, you have to have an account in Aura.Connect with **Connect User** and **Company Admin** privileges. See [Getting an account]() [Account types]() and [Requesting privileges]() for more information
+In order to follow this quickstart guide, you have to have an account in Aura.Connect with **Connect User** and **Company Admin** privileges. See [Getting an account](/aura-connect/getting-an-account/) [Account types](/aura-connect/getting-an-account/#account-types) and [Requesting privileges](/aura-connect/getting-an-account/#requesting-privileges) for more information
 
 ## Login
 

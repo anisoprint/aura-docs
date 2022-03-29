@@ -47,7 +47,7 @@ The static left hand side part of Aura.Connect is called a [Sidebar](#sidebar). 
 ![Sidebar](./media/sidebar/sidebar.png)
 
 ::: tip
-Different account types in Aura.Connect have different section of Aura.Connect available to them. See [Account types]() for more information
+Different account types in Aura.Connect have different section of Aura.Connect available to them. See [Account type#queue-a-new-jobgetting-an-account/#account-types) for more information
 :::
 
 Let's go over each of the sections in more detail below
@@ -109,7 +109,7 @@ Shows a quick summary of statistics in your company. These statistics include:
 
 ![Company statistics summary](./media/dashboard/comapny-statistics-summary.png)
 
-Additionally, you can queue a new printing job using the [Job queue wizard]() by clicking the **'Queue new job'** button
+Additionally, you can queue a new printing job using the [Job queue wizard](#queue-a-new-job) by clicking the **'Queue new job'** button
 
 ![Additional buttons](./media/dashboard/additional-buttons.png)
 
@@ -269,8 +269,7 @@ The following actions may be performed in the [File inspector](#file-inspector):
 
 1. Delete the file by clicking on the trash icon in the top right
 2. Edit the file by clicking on the pen icon in the top right
-3. Add the file to a queue to the desired printer via the [Printer selection dialog]()
-
+3. Add the file to a queue to the desired printer via the printer selection dialog
 When editing a file, you can change its .gcode, .auprojx files and its category by drag and dropping the files from your PC, or by clicking on the cloud icon.
 
 ## Machines
@@ -308,7 +307,9 @@ Shows all the jobs that are currently queued onto the selected printer
 
 ![Current jobs control](./media/machines/current-jobs-control.png)
 
-You can click on one of the jobs to view it in the [Jobs](#jobs) section
+You can click on one of the jobs to view it in the [Jobs](#jobs) section.
+
+Also, you can queue a new job by clicking the **'Queue new job'** button, this will open a [Job queue wizard](#queue-a-new-job)
 
 #### Archive jobs (informational control)
 
