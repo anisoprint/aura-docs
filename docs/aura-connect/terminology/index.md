@@ -18,7 +18,18 @@ Can be obtained by:
 
 ## Jobs
 
-A job is a term used to describe a .gcode file that is ready to be pushed onto some printer in Aura.Connect. This is strictly an Aura.Connect term, but is used often throughout this documentation
+A **job** or **print job** is an ongoing or [queued](#job-queue) data from a .gcode file attached to a printer in Aura.Connect
+
+Jobs can be in different states, including:
+
+1. Not started
+    - Assigned to all print jobs that are currently waiting in the [Job queue](#job-queue) of a printer
+2. Printing
+    - Set to jobs that are currently being printed, you will also see their progress in the UI
+3. Paused
+    - Set to jobs that were being printed, but the user has paused them
+4. Cancelled
+    - Set when a job is cancelled by a user 
 
 ::: warning
 All jobs require a user to manually start them. See [Starting a job](/aura-connect/quickstart/#starting-a-print-job)
@@ -26,15 +37,11 @@ All jobs require a user to manually start them. See [Starting a job](/aura-conne
 
 ## Sources and Files
 
-A source (or a file), is .gcode file with an optional .auproj file uploaded to Aura.Connect. These units are used to create [Jobs](#jobs) in Aura.Connect
+A source (or a file), is .gcode file with an optional .auprojx file uploaded to Aura.Connect. These units are used to create [Jobs](#jobs) in Aura.Connect
 
 ## Job queue
 
 Each printer has a job queue. When you create a job for some printer, it gets put into that printer's job queue. The first job in the queue will be displayed on the printer's screen. You can change the order of jobs for a printer in the [Job Inspector](/aura-connect/gui/#job-inspector)
-
-::: warning
-All jobs require a user to manually start them. See [Starting a job](/aura-connect/quickstart/#starting-a-print-job)
-:::
 
 ## Telemetry
 
