@@ -2,7 +2,7 @@
 
 This document will show and explain basic functionality of Aura.Connect
 
-In order to follow this quickstart guide, you have to have an account in Aura.Connect with **Connect User** and **Company Admin** privileges. See [Getting an account](/aura-connect/getting-an-account/) [Account types](/aura-connect/getting-an-account/#account-types) and [Requesting privileges](/aura-connect/getting-an-account/#requesting-privileges) for more information
+To follow this quickstart guide, you have to have an account in Aura.Connect with **Connect User** and **Company Admin** privileges. See [Getting an account](/aura-connect/getting-an-account/) [Account types](/aura-connect/getting-an-account/#account-types) and [Requesting privileges](/aura-connect/getting-an-account/#requesting-privileges) for more information
 
 ## Login
 
@@ -10,7 +10,7 @@ When you navigate to [Aura.Connect](https://aura3d.tech) for the first time, you
 
 ![Login screen](./media/login_screen.png)
 
-Use your accounts credentials in order to login
+Use your accounts credentials To login
 
 After a successful login you will see the [Dashboard](/aura-connect/gui/#dashboard)
 
@@ -24,7 +24,7 @@ After a successful login you will see the [Dashboard](/aura-connect/gui/#dashboa
 Before connecting your printer to Aura.Connect make sure it's connected to the internet. For more information see [Wi-Fi Connection](https://support.anisoprint.com/composer/manual/#wi-fi-connection)
 :::
 
-One of the things Aura.Connect does, is it helps you to remotely operate and monitor printers owned by your company. For that, Aura.Connect needs to be linked to your physcial printers. In order to connect a physical printer to Aura.Connect, follow the instructions below
+One of the things Aura.Connect does, is it helps you to remotely operate and monitor printers owned by your company. For that, Aura.Connect needs to be linked to your physcial printers. To connect a physical printer to Aura.Connect, follow the instructions below
 
 1. Navigate to the [Machines](/aura-connect/gui/#machines) screen by clicking on the **'Machines'** button in the [Sidebar](/aura-connect/gui/#sidebar)
 
@@ -36,7 +36,7 @@ One of the things Aura.Connect does, is it helps you to remotely operate and mon
 
     ![Machines screen](./media/machines_screen_when_adding_a_new_printer.png)
 
-3. In the form, enter the name of your printer, select its model, and enter its [Machine ID]()
+3. In the form, enter the name of your printer, select its model, and enter its [Machine ID](/aura-connect/terminology/#machine-id)
 
     - To find out your printers MachineID, on its screen press on **Maintenance** -> **Netowrk** -> **Aura.Connect**. You should now be able to see your printers Machine ID
 
@@ -46,7 +46,7 @@ One of the things Aura.Connect does, is it helps you to remotely operate and mon
 
     ![Machine creation form with information](./media/machine_creation_form_with_information.png)
 
-5. After some time, your printer will be successfuly added to Aura.Connect and you will be presented with a [Connection Code]() which you may use to connect your printer to Aura.Connect
+5. After some time, your printer will be successfuly added to Aura.Connect and you will be presented with a [Connection Code](/aura-connect/terminology/#connection-code) which you may use to connect your printer to Aura.Connect
 
     ![Machine creation form after printer has been added](./media/machine_creation_form_after_printer_has_been_added.png)
 
@@ -62,7 +62,7 @@ If all the points above have been completed successfully, you will be able to se
  
 ## Uploading print files
 
-Aura.Connect allows you to remotely queue print jobs for your printers. For that you need to upload .gcode (and optionally .auprojx) files into your compnays' file library. In order to do that, follow the instruction below
+Aura.Connect allows you to remotely queue print jobs for your printers. For that you need to upload .gcode (and optionally .auprojx) files into your company's file library. To do that, follow the instruction below
 
 1. Navigate to the [Library](/aura-connect/gui/#library) screen by clicking on the **'Library'** button in the [Sidebar](/aura-connect/gui/#sidebar)
 
@@ -76,7 +76,7 @@ Aura.Connect allows you to remotely queue print jobs for your printers. For that
 
 4. Optionally drag and drop .auprojx file into the **.auprojx** field
 
-> Alternitevely you can click on the cloud icon in order to browse for files on your PC
+> Alternitevely you can click on the cloud icon To browse for files on your PC
 
 5. Click on the **'Upload'** button.
 
@@ -93,7 +93,7 @@ If all the points above were successfully completed, the files that you selected
 All queued jobs require the user to manually start them
 :::
 
-At this point, Aura.Connect is connected to a physcial printer and is ready to queue jobs containing .gcode files onto them. In order to queue a job, follow the instructions below
+At this point, Aura.Connect is connected to a physcial printer and is ready to queue jobs containing .gcode files onto them. To queue a job, follow the instructions below
 
 1. Navigate to the [Jobs](/aura-connect/gui/#jobs) screen by clicking on the **'Jobs'** button in the [Sidebar](/aura-connect/gui/#sidebar)
 
@@ -107,11 +107,11 @@ At this point, Aura.Connect is connected to a physcial printer and is ready to q
 
 If steps above were completed successfully, a new job contatining .gcode in the selected file has just been queued onto a printer of your choice.
 
-You can queue more jobs, as needed. Or click on the job card on the left in order to inspect it and change its order in the queue.
+You can queue more jobs, as needed. Or click on the job card on the left To inspect it and change its order in the queue.
 
 ![Inspection of a queued job](./media/inspection_of_a_queued_job.png)
 
-> You may also use the [Job Timeline](/aura-connect/gui/#job-timeline) in order to select a queued job for inspection
+> You may also use the [Job Timeline](/aura-connect/gui/#job-timeline) To select a queued job for inspection
 
 ## Starting a print job
 
@@ -135,11 +135,11 @@ You will see a screen containing information about the job, including:
 
 ![Information about job on printer screen](./media/job_info_on_printer_screen.png)
 
-In order to start the job, press **'Print'**
+To start the job, press **'Print'**
 
 ### From Aura.Connect
 
-In order to start the job **from Aura.Connect**, we need to click on the start buttons either in the [Job Card](/aura-connect/gui/#job-cards) [1] or [Job Inspector](/aura-connect/gui/#job-inspector) [2]
+To start the job **from Aura.Connect**, we need to click on the start buttons either in the [Job Card](/aura-connect/gui/#job-cards) [1] or [Job Inspector](/aura-connect/gui/#job-inspector) [2]
 
 ![Job screen buttons which start the job](./media/jobs_screen_buttons_which_start_the_job.png)
 

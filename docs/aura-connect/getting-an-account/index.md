@@ -1,10 +1,10 @@
 # Getting an Account
 
-In order to use Aura.Connect you need an account. There are two ways you can get one
+To use Aura.Connect you need an account. There are two ways you can get one
 
 ## via Support
 
-If you've purchased Anisoprint Composer **before March 1st 2022**, you have to contact our support at <support@anisoprint.com> in order to get an account
+If you've purchased Anisoprint Composer **before March 1st 2022**, you have to contact our support at <support@anisoprint.com> To get an account
 
 ## via E-mail
 

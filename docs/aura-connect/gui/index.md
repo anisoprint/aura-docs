@@ -14,7 +14,7 @@ The sign in screen allows you to perform authentication using your Aura.Connect 
 
 ![Sign in part](./media/login/sign_in_part.png)
 
-In order to authenticate enter your email in the first field and your password in the second field, then click the **'Sign In'** button
+To authenticate enter your email in the first field and your password in the second field, then click the **'Sign In'** button
 
 ### Forgot password
 
@@ -27,18 +27,18 @@ Here you will be able to reset your password, if you happen to forget it. All yo
 Shortly after you will receive a password recovery code on your email, which you can use to set a new password for your account in Aura.Connect
 
 ::: warning
-Password recovery codes can expire. If your recovery code has expired, you can request a new one by following instruction above
+Password recovery codes can expire. If your recovery code has expired, you can request a new one by following instructions above
 :::
 
 ## Navbar
 
-The static upper part of Aura.Connect is called a [Navbar](#navbar). Here you will be able to see your accounts' email, and logout.
+The static upper part of Aura.Connect is called a [Navbar](#navbar). Here you will be able to see your account's email, and logout.
 
 ![Navbar](./media/navbar/navbar.png)
 
 ### Logout
 
-In order to logout click the **'Logout'** button, which is located after your email in the [Navbar](#navbar)
+To logout click the **'Logout'** button, which is located after your email in the [Navbar](#navbar)
 
 ## Sidebar
 
@@ -47,7 +47,7 @@ The static left hand side part of Aura.Connect is called a [Sidebar](#sidebar). 
 ![Sidebar](./media/sidebar/sidebar.png)
 
 ::: tip
-Different account types in Aura.Connect have different section of Aura.Connect available to them. See [Account type#queue-a-new-jobgetting-an-account/#account-types) for more information
+Different account types in Aura.Connect have different section of Aura.Connect available to them. See [Account types](/aura-connect/getting-an-account/#account-types) for more information
 :::
 
 Let's go over each of the sections in more detail below
@@ -73,7 +73,7 @@ Shows the current state of printers added to your company is Aura.Connect. There
     - For each printing printer you will see
         1. G-Code file name, that's currently being printer
         2. Overall printing progress in percents, ranging from 0% to 100%
-        3. Current tool being used by the printer, and that tools' temperature
+        3. Current tool being used by the printer, and that tool's temperature
 3. Errors
     - Shows all the printes that have unacknowledged errors, and the last error that the printer has sent out
 
@@ -91,7 +91,7 @@ Is consisted of printer cards, each printer card shows:
 ![Printer telemetry summary](./media/dashboard/printer-telemetry-summary.png)
 
 ::: tip
-You can hover your mouse cursor over the plotting area in order to study telemetry data in more detail
+You can hover your mouse cursor over the plotting area To study telemetry data in more detail
 :::
 
 ### Company statistics summary
@@ -141,7 +141,7 @@ In the lower left part you will see the [Users](#users-panel) panel
 
 Here you will see a list of all users registered in your company
 
-Hover over a user and click on the trash icon on the right in order to remove a user from your company
+Hover over a user and click on the trash icon on the right To remove a user from your company
 
 ### Admins panel
 
@@ -151,11 +151,11 @@ In the upper right part you will see the [Admins](#admins-panel) panel
 
 Here you will see a list of all users which have been made admins in your company
 
-Hover over a user and click on the trash icon on the right in order to deprive them of admin rights in your company
+Hover over a user and click on the trash icon on the right To deprive them of admin rights in your company
 
 ### Company info form
 
-In order to edit company information press the **'Edit'** button in the [Info](#info-panel) panel, a form on the right will appear
+To edit company information press the **'Edit'** button in the [Info](#info-panel) panel, a form on the right will appear
 
 ![Company info form](./media/company/company-info-form.png)
 
@@ -167,7 +167,7 @@ Press the **'Cancel'** button or a close button in the top right corner of the f
 
 ### Add user form
 
-In order to add a new user to your copmpany press the **'Register new user'** button in the [Users](#users-panel), a form on the right will appear
+To add a new user to your copmpany press the **'Register new user'** button in the [Users](#users-panel), a form on the right will appear
 
 ![Add new user form](./media/company/register-new-user-form.png)
 
@@ -177,7 +177,7 @@ Press the close button in the top right corner of the form to close the form
 
 ### Add admin dialog
 
-In order to add a new admin to your company press the **'Add'** button in the [Admins](#admins-panel) panel, a dialog will appear
+To add a new admin to your company press the **'Add'** button in the [Admins](#admins-panel) panel, a dialog will appear
 
 ![Add admin dialog](./media/company/add-admin-dialog.png)
 
@@ -199,7 +199,7 @@ In the upper left part you will see the [Categories](#categories-panel) panel
 
 Here you will see a list of all categories added by users of your company
 
-Hover over a category and click on the trash icon on the right in order to remove a category
+Hover over a category and click on the trash icon on the right To remove a category
 
 Click on a category to filter the files by the selected category
 
@@ -218,16 +218,16 @@ In the lower left part you will see the [Files](#files-panel) panel
 
 Here you will see a list of all files uploaded to Aura.Connect by users of your company
 
-Hover over a file and click on the trash icon on the right in order to remove the file
+Hover over a file and click on the trash icon on the right To remove the file
 
-Click on a file in order to inspect it
+Click on a file To inspect it
 
 ::: tip
 Use the search box if you have many files. The search is performed by the file's name
 :::
 ### Add category form
 
-Click on the **'Add new category'** button in the [Categories](#categories-panel) panel in order to add a new category, a form on the right will appear
+Click on the **'Add new category'** button in the [Categories](#categories-panel) panel To add a new category, a form on the right will appear
 
 ![Add category form](./media/library/add-new-category.png)
 
@@ -235,19 +235,19 @@ Enter the name of a new category and click the **'Add'** button. A new category 
 
 ### Add file form
 
-Click on the **'Add new file'** button in the [Files](#files-panel) panel in order to add a new file, a form on the right will appear
+Click on the **'Add new file'** button in the [Files](#files-panel) panel To add a new file, a form on the right will appear
 
 ![Add file form](./media/library/add-new-file.png)
 
-Drag and drop the desired .gcode file, and, optionally .auprojx, files, select a category and click the **'Upload'** button
+Drag and drop the desired .gcode file (and optionally an .auprojx file), select a category and click the **'Upload'** button
 
 ::: tip
-You can also click on the cloud icon in order to browse for files on your PC
+You can also click on the cloud icon to browse for files on your PC
 :::
 
 ### File inspector
 
-Click on the file in the [Files](#files-panel) panel in order to inspect a file, a [File inspector](#file-inspector) will appear on the right side of the screen
+Click on one of the files in the [Files](#files-panel) panel to inspect it, a [File inspector](#file-inspector) will appear on the right side of the screen
 
 ![File inspector](./media/library/file-inspector.png)
 
@@ -261,7 +261,7 @@ You will see all the information about a file, which is stored in Aura.Connect, 
 6. Category of the file
 7. Print count
 
-::: tip
+::: warning
 Only successfully finished prints increment the print count
 :::
 
@@ -269,37 +269,42 @@ The following actions may be performed in the [File inspector](#file-inspector):
 
 1. Delete the file by clicking on the trash icon in the top right
 2. Edit the file by clicking on the pen icon in the top right
-3. Add the file to a queue to the desired printer via the printer selection dialog
-When editing a file, you can change its .gcode, .auprojx files and its category by drag and dropping the files from your PC, or by clicking on the cloud icon.
+3. Add the file to a printer queue (via the printer selection dialog)
+
+When editing a file, you can change its .gcode, .auprojx, by drag and dropping the files from your PC, or by clicking on the cloud icon. Additionally, you can change its category
 
 ## Machines
 
-Navigate to the [Machines](#machines) screen by clicking the **'Machines'** button located in the [Sidebar](#sidebar)
+Navigate to the [Machines](#machines) screen by clicking the **'Machine's** button located in the [Sidebar](#sidebar)
 
 ![Machines screen](./media/machines/machines.png)
 
-The machines section contains all the printers added to your company, each of the printers can be viewed via the [Printer inspector](#printer-inspector)
+The machines section contains all the printers added to your company. Each printer can be inspected in more detail via the [Printer inspector](#printer-inspector)
 
-### Printer list
+### Printer cards
 
-In the left part of the [Machines](#machines) screen you will see a list of all printers added by your company in Aura.Connect
+In the left part of the [Machines](#machines) screen you will see a list of all printers added by your company in Aura.Connect. Each printer is represted as a [Printer card](#printer-cards)
 
-![Printer list](./media/machines/printer-list.png)
+![Printer list](./media/machines/printer-cards.png)
 
-The [Printer cards](#printer-list) contain the following information about the printer:
+Each [Printer card](#printer-cards) contains the following information:
 
 1. Printer model
 2. Printer name
 3. Status of the printer
 4. Error count on the printer
 
+::: tip
+Hovering the error count will show the last error sent by printer
+:::
+
 ### Printer inspector
 
-Click on one of the [Printer cards](#printer-list) in the [Printer list](#printer-list) in order to inspect the printer, a [Printer inspector](#printer-inspector) will open
+Click on one of the [Printer cards](#printer-cards) in the list to inspect the printer, a [Printer inspector](#printer-inspector) will open
 
 ![Printer inspector](./media/machines/printer-inspector.png)
 
-You will see a panel, that contains all of the information and interactive controls related to a printer. To be more specific, you will see the following controls:
+You will see a panel, that contains all of the information and interactive controls related to a printer. These controls include:
 
 #### Current jobs (informational & interactive control)
 
@@ -346,7 +351,7 @@ Is used to send commands and view raw logs from the printer.
 Type the command in the text field, and press **'Enter'** to send a command 
 
 ::: danger
-Sending command to printer while it's printing is dangerous, because commands won't be executed immideately!
+Sending command to printer while it's printing is dangerous, because commands won't be executed immideately! See [Sending commands via Terminal mid print](/aura-connect/before-you-start/#sending-commands-via-terminal-mid-print) for more information
 :::
 
 ### Customize printer inspector
@@ -392,21 +397,23 @@ Here you can change the name of the printer
 Only admins of your company may add new printer
 :::
 
-Click the **'Add new machine'** button at the top of the [Printer list](#printer-list), a form in the bottom right corner of the [Machines](#machines) screen will appear
+Click the **'Add new machine'** button at the top of the [Printer list](#printer-cards), a form in the bottom right corner of the [Machines](#machines) screen will appear
 
 ![Add new printer form](./media/machines/add-new-printer-form.png)
 
-Here you can add a new printer to your company, by entering the name, selecting the model, and the *Machine ID* of the printer you're trying to add. After you've entered all the information, click the **'Add'** button and wait for the form to expand with the newly generated connection code for the printer
+Here you can add a new printer to your company, by entering the name, selecting the model, and the [Machine ID](/aura-connect/terminology/#machine-id) of the printer you're trying to add. After you've entered all the information, click the **'Add'** button. 
+
+After some time, you will see a [Connection Code](/aura-connect/terminology/#connection-code) for the printer appear
 
 ![Add new printer form with connection code](./media/machines/add-new-printer-form-with-connection-code.png)
 
 Use the code provided to you to connet to the newly added printer
 
-> Refer to the [Establishing a connection]() article for more information
+> Refer to the [Establishing a connection](/aura-connect/terminology/#establishing-a-connection) article for more information
 
 ## Jobs
 
-Navigate to the [Jobs](#jobs) screen by clicking the **'Jobs'** button located in the [Sidebar](#sidebar)
+Navigate to the [Jobs](#jobs) screen by clicking the **'Job's** button located in the [Sidebar](#sidebar)
 
 The jobs section contains all of the jobs queued onto printers in your company. Here you may inspect the jobs, monitor their progress, delete, reorder, start, stop, and pause them.
 
@@ -497,7 +504,7 @@ Use the buttons in the top right part of the timeline to:
 
 ### Queue a new job
 
-Press the **'Queue new job'** button in the upper left part of the [Jobs](#jobs) screen white on the **'Current'** tab, this will open a [Job queue wizard](#queue-a-new-job) dialog. This dialog has two steps, which you have to complete in order to queue a job, these steps are described below
+Press the **'Queue new job'** button in the upper left part of the [Jobs](#jobs) screen white on the **'Current'** tab, this will open a [Job queue wizard](#queue-a-new-job) dialog. This dialog has two steps, which you have to complete To queue a job, these steps are described below
 
 #### Selecting a printer for a new job
 
@@ -525,7 +532,7 @@ Switch them on and off by clicking on them, if you wish to see jobs for certain 
 
 ### Archives panel
 
-In the left part of the [Jobs](#jobs) screen, while in the **'Archives'** tab, you will see the [Archives](#archives-panel) panel
+In the left part of the [Jobs](#jobs) screen, while in the **'Archive's** tab, you will see the [Archives](#archives-panel) panel
 
 ![Archives panel](./media/jobs/archives.png)
 
@@ -533,7 +540,7 @@ Here you will see a list of all finished jobs in your company. We also refer to 
 
 ### Archive inspector
 
-Click on one of the job archives in the [Archives](#archives-panel) panel in order to inspect them, an [Archive inspector](#archive-inspector) will appear on the right side
+Click on one of the job archives in the [Archives](#archives-panel) panel To inspect them, an [Archive inspector](#archive-inspector) will appear on the right side
 
 ![Archives inspector](./media/jobs/archive-inspector.png)
 
