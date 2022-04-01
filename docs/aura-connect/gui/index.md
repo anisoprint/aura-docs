@@ -91,7 +91,7 @@ Is consisted of printer cards, each printer card shows:
 ![Printer telemetry summary](./media/dashboard/printer-telemetry-summary.png)
 
 ::: tip
-You can hover your mouse cursor over the plotting area To study telemetry data in more detail
+You can hover your mouse cursor over the plotting area to study telemetry data in more detail
 :::
 
 ### Company statistics summary
@@ -141,7 +141,7 @@ In the lower left part you will see the [Users](#users-panel) panel
 
 Here you will see a list of all users registered in your company
 
-Hover over a user and click on the trash icon on the right To remove a user from your company
+Hover over a user and click on the trash icon on the right to remove a user from your company
 
 ### Admins panel
 
@@ -151,7 +151,7 @@ In the upper right part you will see the [Admins](#admins-panel) panel
 
 Here you will see a list of all users which have been made admins in your company
 
-Hover over a user and click on the trash icon on the right To deprive them of admin rights in your company
+Hover over a user and click on the trash icon on the right to deprive them of admin rights in your company
 
 ### Company info form
 
@@ -199,7 +199,7 @@ In the upper left part you will see the [Categories](#categories-panel) panel
 
 Here you will see a list of all categories added by users of your company
 
-Hover over a category and click on the trash icon on the right To remove a category
+Hover over a category and click on the trash icon on the right to remove a category
 
 Click on a category to filter the files by the selected category
 
@@ -218,16 +218,16 @@ In the lower left part you will see the [Files](#files-panel) panel
 
 Here you will see a list of all files uploaded to Aura.Connect by users of your company
 
-Hover over a file and click on the trash icon on the right To remove the file
+Hover over a file and click on the trash icon on the right to remove the file
 
-Click on a file To inspect it
+Click on a file to inspect it
 
 ::: tip
 Use the search box if you have many files. The search is performed by the file's name
 :::
 ### Add category form
 
-Click on the **'Add new category'** button in the [Categories](#categories-panel) panel To add a new category, a form on the right will appear
+Click on the **'Add new category'** button in the [Categories](#categories-panel) panel to add a new category, a form on the right will appear
 
 ![Add category form](./media/library/add-new-category.png)
 
@@ -235,7 +235,7 @@ Enter the name of a new category and click the **'Add'** button. A new category 
 
 ### Add file form
 
-Click on the **'Add new file'** button in the [Files](#files-panel) panel To add a new file, a form on the right will appear
+Click on the **'Add new file'** button in the [Files](#files-panel) panel to add a new file, a form on the right will appear
 
 ![Add file form](./media/library/add-new-file.png)
 
@@ -504,7 +504,7 @@ Use the buttons in the top right part of the timeline to:
 
 ### Queue a new job
 
-Press the **'Queue new job'** button in the upper left part of the [Jobs](#jobs) screen white on the **'Current'** tab, this will open a [Job queue wizard](#queue-a-new-job) dialog. This dialog has two steps, which you have to complete To queue a job, these steps are described below
+Press the **'Queue new job'** button in the upper left part of the [Jobs](#jobs) screen white on the **'Current'** tab, this will open a [Job queue wizard](#queue-a-new-job) dialog. This dialog has two steps, which you have to complete to queue a job, these steps are described below
 
 #### Selecting a printer for a new job
 
@@ -540,7 +540,7 @@ Here you will see a list of all finished jobs in your company. We also refer to 
 
 ### Archive inspector
 
-Click on one of the job archives in the [Archives](#archives-panel) panel To inspect them, an [Archive inspector](#archive-inspector) will appear on the right side
+Click on one of the job archives in the [Archives](#archives-panel) panel to inspect them, an [Archive inspector](#archive-inspector) will appear on the right side
 
 ![Archives inspector](./media/jobs/archive-inspector.png)
 
