@@ -60,7 +60,11 @@ The dashboard section is often used as a quick summary of your company's statist
 
 ![Dashboard](./media/dashboard/dashboard.png)
 
-Dashboard is split into three main parts, listed below
+Dashboard is split into three main parts, listed below:
+
+1. [Printer summary](#printer-summary)
+2. [Printer telemetry summary](#printer-telemetry-summary)
+3. [Company statistics summary](#company-statistics-summary)
 
 ### Printer summary
 
@@ -123,7 +127,11 @@ The company section contains information about all the users in the company. If 
 
 ![Company](./media/company/company.png)
 
-This section is split into three main parts listed below
+This section is split into three main parts listed below:
+
+1. [Info panel](#info-panel)
+2. [Users panel](#users-panel)
+3. [Admins panel](#admins-panel)
 
 ### Info panel
 
@@ -190,6 +198,11 @@ Navigate to the [Library](#library) screen by clicking the **'Library'** button 
 The library section contains all the files uploaded to Aura.Connect by your company. You can also group your files into categories, upload new files, delete uploaded files.
 
 ![Library](./media/library/library.png)
+
+You will two panels in this section:
+
+1. [Categories panel](#categories-panel)
+2. [Files panel](#files-panel)
 
 ### Categories panel
 
@@ -292,7 +305,7 @@ Each [Printer card](#printer-cards) contains the following information:
 1. Printer model
 2. Printer name
 3. Status of the printer
-4. Error count on the printer
+4. Unacknowledged errors of the printer
 
 ::: tip
 Hovering the error count will show the last error sent by printer
@@ -305,6 +318,12 @@ Click on one of the [Printer cards](#printer-cards) in the list to inspect the p
 ![Printer inspector](./media/machines/printer-inspector.png)
 
 You will see a panel, that contains all of the information and interactive controls related to a printer. These controls include:
+
+1. [Current jobs](#current-jobs-informational--interactive-control)
+2. [Archive jobs](#archive-jobs-informational-control)
+3. [Telemetry](#telemetry-informational-control)
+4. [Error log](#error-log-informational-control)
+5. [Terminal](#terminal-interactive-control)
 
 #### Current jobs (informational & interactive control)
 
@@ -563,6 +582,14 @@ Navigate to the [Profile](#profile) screen by clicking the **'Profile'** button 
 The profile section contains all the information about the user, their jobs, stats, archives, active devices. You can also change your password and profile information
 
 ![Profile](./media/profile/profile.png)
+
+Below is a list of all panels available on this section:
+
+1. [Profile information](#profile-information-panel)
+2. [Profile statistics](#profile-statistics-panel)
+3. [Active devices](#active-devices-panel)
+4. [Profile jobs](#profile-jobs-panel)
+5. [Profile archive jobs](#profile-archives-panel)
 
 ### Profile information panel
 
