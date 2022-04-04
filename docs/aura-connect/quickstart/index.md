@@ -68,7 +68,7 @@ Aura.Connect allows you to remotely queue print jobs for your printers. For that
 
     ![Library button in the sidebar](./media/library_button_in_the_sidebar.png)
 
-2. Click on the **'Add new file'** button [1] and you will see a [File upload form](/aura-connect/gui/#add-file-form) appear [2].
+2. Click on the **'Add new file'** button [1] and you will see a [File upload form](/aura-connect/gui/#add-file-form) [2] appear.
 
     ![Library screen with file upload form](./media/library_screen_with_file_upload_form.png)
 
@@ -81,7 +81,7 @@ Aura.Connect allows you to remotely queue print jobs for your printers. For that
 5. Click on the **'Upload'** button.
 
 
-After some time you will see a new row appear in the [Files](/aura-connect/gui/#files-panel) area. You can inspect the uploaded files by clicking on the newly created row
+After some time you will see a new row [1] appear in the [Files](/aura-connect/gui/#files-panel) area. You can inspect the uploaded files by clicking on the newly created row. [File inspector](/aura-connect/gui/#file-inspector) [2] will apear on the right
 
 ![Library screen after upload](./media/library_screen_after_upload.png)
 
@@ -107,7 +107,7 @@ At this point, Aura.Connect is connected to a physcial printer and is ready to q
 
 If steps above were completed successfully, a new job contatining .gcode in the selected file has just been queued onto a printer of your choice.
 
-You can queue more jobs, as needed. Or click on the job card on the left to inspect it and change its order in the queue.
+You can queue more jobs, as needed. Or click on the [Job card](/aura-connect/gui/#job-cards) [1] on the left to inspect it. You will see a [Job inspector](/aura-connect/gui/#job-inspector) [2] appear on the right
 
 ![Inspection of a queued job](./media/inspection_of_a_queued_job.png)
 
