@@ -357,7 +357,7 @@ If you can't see the fitering switches, use the toggle buttons next to the **'Te
 
 #### Error log (informational control)
 
-Show the different errors, warnings, and informational messages sent by a printer.
+Show the different errors, warnings, and informational messages sent by a printer. You can also change the period for which you're viewing the errors [1], and filter the errors by their types [2]
 
 ![Error log control](./media/machines/error-control.png)
 
@@ -367,7 +367,7 @@ Is used to send commands and view raw logs from the printer.
 
 ![Terminal control](./media/machines/terminal-control.png)
 
-Type the command in the text field, and press **'Enter'** to send a command 
+Type the command in the text field next to the green cursor, and press **'Enter'** to send a command 
 
 ::: danger
 Sending command to printer while it's printing is dangerous, because commands won't be executed immideately! See [Sending commands via Terminal mid print](/aura-connect/before-you-start/#sending-commands-via-terminal-mid-print) for more information

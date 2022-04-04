@@ -4,7 +4,7 @@ Aura.Connect introduces specific terminology, which is used throughout this docu
 
 ## Printer connection
 
-For a printer to be accesable in Aura.Connect user must establish a connection with that printer via Aura.Connect
+For a physical printer to be accessible in Aura.Connect user must establish a connection with that printer via Aura.Connect
 
 ### Connection components
 
@@ -23,21 +23,25 @@ Before connecting your printer to Aura.Connect make sure it's connected to the i
 
 To establish a connection with a printer user must perform the following steps:
 
-1. [Add a printer](/aura-connect/gui/#add-new-printer) in Aura.Connect, if you haven't done  that already
-2. On the physical printer's screen go to **Maintenance** -> **Netowrk** -> **Aura.Connect** and press **'Connect'**
+1. [Add a printer](/aura-connect/gui/#add-new-printer) in Aura.Connect, if they haven't done that already
+2. On the physical printer's screen go to **Maintenance** -> **Network** -> **Aura.Connect** and press **'Connect'**
 3. Enter ***wss://aura3d.tech*** in the **Server URL** field
 4. Enter the [Connection Code](#connection-code) in the **Security code** field
 5. Press **Connect**
 
+> See [Connection Code](#connection-code) to find out how to obtain it
+
 ## Machine ID
 
-Machine ID is a combination of 6 characters, that is used to uniquly identify a printer. 
+Machine ID is a combination of 6 characters, that is used to uniquely identify a printer. 
 
-Can be found by pressing **Maintenance** -> **Netowrk** -> **Aura.Connect** on the printer's screen
+Can be found by pressing **Maintenance** -> **Network** -> **Aura.Connect** on the printer's screen
 
 ## Connection code
 
-Connection code is a combination of 6 digits, which is provided to a user of Aura.Connect, when creating a connection with a printer. It is used to verify a connection on the printers screen in **Maintenance** -> **Netowrk** -> **Aura.Connect** 
+Connection code is a combination of 6 digits, which is provided to a user of Aura.Connect, when creating a connection with a printer. 
+
+It is used when establishing a connection on the printers screen in **Maintenance** -> **Network** -> **Aura.Connect** 
 
 ### How to obtain
   1. By creating a printer (see [Add new printer](/aura-connect/gui/#add-new-printer))
@@ -64,15 +68,15 @@ All jobs require a user to manually start them. See [Starting a job](/aura-conne
 
 ## Sources and Files
 
-A source (or a file), is .gcode file with an optional .auprojx file uploaded to Aura.Connect. These units are used to create [Jobs](#jobs) in Aura.Connect
+A source (or a file), is a .gcode file with an optional .auprojx file uploaded to Aura.Connect. These units are used to create [Jobs](#jobs) in Aura.Connect
 
 ## Job queue
 
-Each printer has a job queue. When you create a job for some printer, it gets put into that printer's job queue. The first job in the queue will be displayed on the printer's screen. You can change the order of jobs for a printer in the [Job Inspector](/aura-connect/gui/#job-inspector)
+Each printer has a job queue. When you create a job for some printer, it gets put into that printer's job queue. The first job in the queue will be displayed on the printer's screen. You can change the order of jobs for a printer in the [Job Inspector](/aura-connect/gui/#job-inspector) in Aura.Connect
 
 ## Telemetry
 
-Is a collection of data sent by a printer, including:
+Is a collection of data sent by a printer to Aura.Connect. This data includes:
 
 1. Build plate temperature
 2. Chamber temperature
