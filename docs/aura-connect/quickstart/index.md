@@ -1,4 +1,4 @@
-# Qickstart
+# Quickstart
 
 This document will show and explain basic functionality of Aura.Connect
 
@@ -173,7 +173,7 @@ After the print is finished you must confirm it on the printer screen. Press the
 ![Finished job on printer screen](./media/finished_job_on_printer_screen.png)
 
 ::: danger
-Before pressing the **'OK'** button make sure that you remove the printed part from the printer's buildplate. Not doing so is a really dangerous practice. 
+Before pressing the **'OK'** button make sure that you remove the printed part from the printer's buildplate. When you press **'OK'** the printer goes to the **'Idle'** state, indicating that the next job can be printed.
 
 See [Not removing printed parts before subsequent prints](/aura-connect/before-you-start/#not-removing-printed-parts-before-subsequent-prints) for more information 
 :::
