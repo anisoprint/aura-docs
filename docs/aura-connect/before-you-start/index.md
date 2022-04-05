@@ -49,18 +49,16 @@ We **strongly encourage** you to familiarize yourself with the full list of pote
 ## Compatible hardware and printer firmware
 
 Before connecting your printer to Aura.Connect, please ensure that it meets the following requirements:
-* The machine has network capabilities (the machine version contains "nw", e.g. "1.0.5nw")
-* The machine firmware version is 1.2.6 or later 
-* The machine Network bridge software version is 1.1.1 or later (the update is finished on the printer restart, so please restart your printer before checking the version)
+1. The machine has network capabilities (the machine version contains "nw", e.g. "1.0.5nw")
+2. The machine firmware version is 1.2.6 or later 
+3. The machine Network bridge software version is 1.1.1 or later (the update is finished on the printer restart, so please restart your printer before checking the version)
+
+![About printer](./media/about-printer.png)
 
 You can check everything on the machine on the About printer screen, which is located in the Maintenance menu.
 
 The latest firmware can be downloaded [here](https://support.anisoprint.com/composer/firmware-downloads/). The Network bridge software is updated automatically if a printer is connected to the Internet, please refer to the [Manual](https://support.anisoprint.com/composer/manual/#network-bridge-software-updating) for more details. 
 
-
-
-![about printer](./media/about-printer.png)
-
 ## Aura.Connect specific terminology
 
-If, while reading the documentation, you're having trouble understanding the terminology, refer to [Aura.Connect terminology](/aura-connect/terminology/)
+If, while reading the documentation, you're having troubles understanding the terminology, refer to [Aura.Connect terminology](/aura-connect/terminology/)
