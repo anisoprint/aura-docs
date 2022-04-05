@@ -12,9 +12,19 @@ If your PC is connected to the internet, the best option is to use an **Online**
 The **Offline** activation is also possible if your PC doesn't have an internet connection. The offline activation procedure is the following:
 1. Enter the license key
 2. Click "Get request file" and save the activation request file
-3. Send the license key and activation request file to [support@anisoprint.com](mailto:support@anisoprint.com)
-4. Receive the activation response file from Support
-5. Open the response file by clicking "Open response file"
+3. Using a PC with internet connection login to your Aura.Connect account at [aura3d.tech](https://aura3d.tech). 
+4. Go to your company page [1] and select the Products tab [2].
+5. Click on the license key that you are activating [3].
+6. Click the 'Activate offline' button on the key details panel [4].
+7. In the appeared dialog window upload the activation request file from step 2.
+8. Download the activation response file.
+9. Open the response file from step 8 in Aura by clicking 'Open response file'.
+
+![Aura.Connect Products Page](./media/aura-connect-offline-activation.png)
+
+::: tip NOTE
+If you do not have Aura.Connect account, please check [Getting an account](/aura-connect/getting-an-account/). Alternatively, you can send the request file and the last 6 symbols of your license key to [support@anisoprint.com](mailto:support@anisoprint.com)
+:::
 
 ## Deactivation
 
@@ -26,5 +36,12 @@ To deactivate license click the **Deactivate** button. Either **Online** or **Of
 
 **Online** deactivation is performed automatically. The procedure for **Offline** deactivation is the following:
 1. Click "Get request file" and save the deactivation request file
-2. Send your license key and the deactivation request file to [support@anisoprint.com](mailto:support@anisoprint.com)
-3. After confirmation from Support the license can be activated on other PC
+2. Using a PC with internet connection login to your Aura.Connect account at [aura3d.tech](https://aura3d.tech). 
+3. Go to your company page and select the Products tab.
+5. Click on the license key that you are activating.
+6. Click the 'Manage' button near the 'Offline actication' caption on the key details panel.
+7. In the appeared dialog window upload the deactivation request file from step 1.
+
+::: tip NOTE
+If you do not have Aura.Connect account, please check [Getting an account](/aura-connect/getting-an-account/). Alternatively, you can send the request file and the last 6 symbols of your license key to [support@anisoprint.com](mailto:support@anisoprint.com)
+:::
