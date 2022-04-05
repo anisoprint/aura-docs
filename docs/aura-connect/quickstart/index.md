@@ -21,7 +21,7 @@ After a successful login you will see the [Dashboard](/aura-connect/gui/#dashboa
 ## Adding a printer
 
 ::: tip
-Before connecting your printer to Aura.Connect make sure it's connected to the internet. For more information see [Wi-Fi Connection](https://support.anisoprint.com/composer/manual/#wi-fi-connection)
+Before connecting your printer to Aura.Connect make sure it has network capabilities, compatible firmware and is connected to the internet. For more information see [Compatible hardware and printer firmware](/aura-connect/before-you-start/#compatible-hardware-and-printer-firmware) and [Wi-Fi Connection](https://support.anisoprint.com/composer/manual/#wi-fi-connection)
 :::
 
 One of the things Aura.Connect does, is it helps you to remotely operate and monitor printers owned by your company. For that, Aura.Connect needs to be linked to your physcial printers. 
@@ -54,7 +54,7 @@ To connect a physical printer to Aura.Connect, follow the instructions below
 
 6. On your physical printer's screen press on **Maintenance** -> **Netowrk** -> **Aura.Connect** -> **Connect**.
 
-    1. Enter ***wss://aura3d.tech*** in the **Server URL** field
+    1. Enter ***wss://aura3d.tech/mqtt*** in the **Server URL** field
     2. Enter the connection code from step 5 in the **Security code** field
     3. Press **Connect**
 
@@ -168,12 +168,12 @@ Now that the job is started you can either monitor its progress in the [Jobs](/a
 
 ## Finishing a print job
 
-After the print is finished you must confirm it on the printer screen. Press the **'Done'** button at the bottom of the screen
+After the print is finished you must confirm it on the printer screen. Press the **'OK'** button at the bottom of the screen
 
 ![Finished job on printer screen](./media/finished_job_on_printer_screen.png)
 
 ::: danger
-Before pressing the **'Done'** button make sure that you remove the printed part from the printer's buildplate. Not doing so is a really dangerous practice. 
+Before pressing the **'OK'** button make sure that you remove the printed part from the printer's buildplate. Not doing so is a really dangerous practice. 
 
 See [Not removing printed parts before subsequent prints](/aura-connect/before-you-start/#not-removing-printed-parts-before-subsequent-prints) for more information 
 :::

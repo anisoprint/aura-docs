@@ -10,11 +10,19 @@ If you've purchased Anisoprint Composer **before March 1st 2022**, you have to c
 
 If you've purchased Anisoprint Composer **after March 1st 2022**, you will receive Aura.Connect credentials by e-mail. In case you still haven't received them, conctact our support at <support@anisoprint.com>
 
+::: tip NOTE
+Sometimes, the e-mail with Aura.Connect credentials can go the "Updates", "Promotions" or even "Spam" folder in you inbox, depending on your e-mail provider settings. So, please check these folders as well.
+:::
+
 ## Account types
 
 Aura.Connect offers different capabilities to different users, depending on their account type. These types are described below. Different account types may be combined together in a single Aura.Connnect account
 
 Below is a table of all user types and actions they can or can't perform
+
+::: tip NOTE
+The "Connect User" and "Company Admin" roles are now only available for the participants of the Aura.Connect Closed Beta Test.
+:::
 
 | Action                                | Regular User | Connect User | Company Admin | Billing Admin | BIlling Owner |
 |---------------------------------------|:------------:|:------------:|:-------------:|:-------------:|:-------------:|
