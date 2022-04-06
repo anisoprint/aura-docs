@@ -28,9 +28,9 @@ One of the things Aura.Connect does, is it helps you to remotely operate and mon
 
 To connect a physical printer to Aura.Connect, follow the instructions below
 
-1. Navigate to the [Machines](/aura-connect/gui/#machines) screen by clicking on the **'Machines'** button in the [Sidebar](/aura-connect/gui/#sidebar)
+1. Navigate to the [Machines](/aura-connect/gui/#machines) screen by clicking on the **'Machines'** button in the [Navbar](/aura-connect/gui/#navbar)
 
-    ![Machines button in the sidebar](./media/machines_button_in_the_sidebar.png)
+    ![Machines button in the navbar](./media/machines_button_in_the_navbar.png)
 
     > While at the Dashboard screen, if no printers were added in Aura.Connect by your company, you can click the **'Add new machine'** button, which will redirect you to the Machines screen
 
@@ -68,9 +68,9 @@ Aura.Connect allows you to remotely queue [print jobs](/aura-connect/terminology
 
 To upload print files, follow the instruction below
 
-1. Navigate to the [Library](/aura-connect/gui/#library) screen by clicking on the **'Library'** button in the [Sidebar](/aura-connect/gui/#sidebar)
+1. Navigate to the [Library](/aura-connect/gui/#library) screen by clicking on the **'Library'** button in the [Navbar](/aura-connect/gui/#navbar)
 
-    ![Library button in the sidebar](./media/library_button_in_the_sidebar.png)
+    ![Library button in the navbar](./media/library_button_in_the_navbar.png)
 
 2. Click on the **'Add new file'** button [1] and you will see a [File upload form](/aura-connect/gui/#add-file-form) [2] appear.
 
@@ -101,9 +101,9 @@ At this point, Aura.Connect is connected to a physcial printer and is ready to q
 
 To queue a job, follow the instructions below
 
-1. Navigate to the [Jobs](/aura-connect/gui/#jobs) screen by clicking on the **'Jobs'** button in the [Sidebar](/aura-connect/gui/#sidebar)
+1. Navigate to the [Jobs](/aura-connect/gui/#jobs) screen by clicking on the **'Jobs'** button in the [Navbar](/aura-connect/gui/#navbar)
 
-    ![Jobs button in the sidebar](./media/jobs_button_in_the_sidebar.png)
+    ![Jobs button in the navbar](./media/jobs_button_in_the_navbar.png)
 
 2. Click on the **'Queue new job'** button and you will see a [Job queue wizard](/aura-connect/gui/#queue-a-new-job) dialog window appear.
 
