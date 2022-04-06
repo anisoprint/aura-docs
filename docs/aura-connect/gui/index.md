@@ -30,21 +30,21 @@ Shortly after you will receive a password recovery code on your email, which you
 Password recovery codes can expire. If your recovery code has expired, you can request a new one by following instructions above
 :::
 
-## Navbar
+## Topbar
 
-The static upper part of Aura.Connect is called a [Navbar](#navbar). Here you will be able to see your account's email, and logout.
+The static upper part of Aura.Connect is called a [Topbar](#topbar). Here you will be able to see your account's email, and logout.
 
-![Navbar](./media/navbar/navbar.png)
+![Topbar](./media/topbar/topbar.png)
 
 ### Logout
 
-To logout click the **'Logout'** button, which is located after your email in the [Navbar](#navbar)
+To logout click the **'Logout'** button, which is located after your email in the [Topbar](#topbar)
 
-## Sidebar
+## Navbar
 
-The static left hand side part of Aura.Connect is called a [Sidebar](#sidebar). It contains all of the sections of Aura.Connect, which are available to your account
+The static left hand side part of Aura.Connect is called a [Navbar](#navbar). It contains all of the sections of Aura.Connect, which are available to your account
 
-![Sidebar](./media/sidebar/sidebar.png)
+![Navbar](./media/navbar/navbar.png)
 
 ::: tip
 Different account types in Aura.Connect have different section of Aura.Connect available to them. See [Account types](/aura-connect/getting-an-account/#account-types) for more information
@@ -54,7 +54,7 @@ Let's go over each of the sections in more detail below
 
 ## Dashboard
 
-Navigate to the [Dashboard](#dashboard) screen by clicking the **'Dashboard'** button located in the [Sidebar](#sidebar)
+Navigate to the [Dashboard](#dashboard) screen by clicking the **'Dashboard'** button located in the [Navbar](#navbar)
 
 The dashboard section is often used as a quick summary of your company's statistics and for monitoring the current state of your printers. 
 
@@ -121,7 +121,7 @@ Additionally, you can queue a new printing job using the [Job queue wizard](#que
 
 ## Company
 
-Navigate to the [Company](#company) screen by clicking the **'Company'** button located in the [Sidebar](#sidebar)
+Navigate to the [Company](#company) screen by clicking the **'Company'** button located in the [Navbar](#navbar)
 
 The company section contains information about all the users in the company. If you're a company admin you are also able to change information about the company, add new users, add other users to company admins.
 
@@ -193,7 +193,7 @@ Click on the user you want to make an admin to make them your company's admin
 
 ## Library
 
-Navigate to the [Library](#library) screen by clicking the **'Library'** button located in the [Sidebar](#sidebar)
+Navigate to the [Library](#library) screen by clicking the **'Library'** button located in the [Navbar](#navbar)
 
 The library section contains all the files uploaded to Aura.Connect by your company. You can also group your files into categories, upload new files, delete uploaded files.
 
@@ -288,7 +288,7 @@ When editing a file, you can change its .gcode, .auprojx, by drag and dropping t
 
 ## Machines
 
-Navigate to the [Machines](#machines) screen by clicking the **'Machine's** button located in the [Sidebar](#sidebar)
+Navigate to the [Machines](#machines) screen by clicking the **'Machine's** button located in the [Navbar](#navbar)
 
 ![Machines screen](./media/machines/machines.png)
 
@@ -432,7 +432,7 @@ Use the code provided to you to connet to the newly added printer
 
 ## Jobs
 
-Navigate to the [Jobs](#jobs) screen by clicking the **'Job's** button located in the [Sidebar](#sidebar)
+Navigate to the [Jobs](#jobs) screen by clicking the **'Job's** button located in the [Navbar](#navbar)
 
 The jobs section contains all of the jobs queued onto printers in your company. Here you may inspect the jobs, monitor their progress, delete, reorder, start, stop, and pause them.
 
@@ -577,7 +577,7 @@ Additionally, you can press the **'Print again'** button to queue the same file 
 
 ## Profile
 
-Navigate to the [Profile](#profile) screen by clicking the **'Profile'** button located in the [Sidebar](#sidebar)
+Navigate to the [Profile](#profile) screen by clicking the **'Profile'** button located in the [Navbar](#navbar)
 
 The profile section contains all the information about the user, their jobs, stats, archives, active devices. You can also change your password and profile information
 
